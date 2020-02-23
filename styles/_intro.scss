@@ -1,0 +1,102 @@
+.main-head {
+    width: 95%;
+    margin: 0 0 0 auto;   
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    min-height: 10vh;
+    width: 90%;
+    flex-wrap: wrap;
+    .logo{
+        @include flex(flex-start, center, row);
+        flex: 1 1 10rem;
+        h2 {
+            margin: 2rem;
+        }
+    }
+    ul {
+        @include flex(space-around, center, row);
+        flex: 1 1 40rem;
+    }
+}
+
+ul li:nth-child(1):hover  {
+    text-decoration: underline;
+}
+
+ul li:nth-child(2):hover  {
+    text-decoration: underline;
+}
+
+ul li:nth-child(3):hover  {
+    text-decoration: underline;
+}
+
+ul li:nth-child(4):hover  {
+    text-decoration: underline;
+}
+
+ul li:nth-child(5):hover  {
+    text-decoration: underline;
+}
+
+.intro{
+    min-height: 90vh;
+    width: 95%;
+    margin: 0 0 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro-introdaction {
+    flex: 2 1 40rem;
+    text-align: center;
+    @include flex(center, center, column)
+}
+
+.intro-introdaction p {
+    padding: 5rem 10rem;
+    color: $gray-text;
+}
+
+.intro-introdaction h2 {
+    padding-top: 3rem;
+}
+
+.intro-introdaction a {
+    padding: 2rem 8rem;
+    border: 3px solid black;
+    margin-bottom: 4rem;
+    cursor: pointer;
+    transition: background 0.7s ease-in-out;
+    border-radius: 1rem;
+}
+
+.intro-introdaction a:hover{
+    background: rgba(87, 87, 87, 0.2);
+}
+
+.intro-images {
+    flex: 1 1 40rem;
+    background: linear-gradient(#dad8dd, #dad1d4);
+}
+
+.intro-thanos {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ANIMATIONS */
+
+@keyframes opening {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
