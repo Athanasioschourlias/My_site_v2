@@ -1,6 +1,9 @@
 .main-head {
     width: 95%;
-    margin: 0 0 0 auto;   
+    margin: 0 0 0 auto;
+    z-index: 2;
+    position: sticky;
+    top: 0%;   
 }
 
 nav {
@@ -12,13 +15,46 @@ nav {
     .logo{
         @include flex(flex-start, center, row);
         flex: 1 1 10rem;
-        h2 {
+        h1 {
             margin: 2rem;
+            font-family: 'Vibes';
+            font-size: 4rem;
+        }
+        h1:hover{
+            font-size: 4.1rem;
+            transition: 1s ease-in-out;
         }
     }
     ul {
         @include flex(space-around, center, row);
         flex: 1 1 40rem;
+    }
+    
+}
+
+.nav-scrolled {
+    transition: 500ms ease-in-out;
+    width: 100%;
+    background: $background-color;
+    color: white;
+    margin: auto;
+
+    .logo img{
+        padding: 0rem 0rem 0rem 3rem;
+    }
+
+    .logo a{
+        h1{
+            color: white;
+        }
+    }
+
+    nav{
+       ul{
+           a{
+               color: white;
+           }
+       } 
     }
 }
 
@@ -38,10 +74,6 @@ ul li:nth-child(4):hover  {
     text-decoration: underline;
 }
 
-ul li:nth-child(5):hover  {
-    text-decoration: underline;
-}
-
 .intro{
     min-height: 90vh;
     width: 95%;
@@ -53,7 +85,7 @@ ul li:nth-child(5):hover  {
 .intro-introdaction {
     flex: 2 1 40rem;
     text-align: center;
-    @include flex(center, center, column)
+    @include flex(center, center, column);
 }
 
 .intro-introdaction p {
@@ -62,7 +94,12 @@ ul li:nth-child(5):hover  {
 }
 
 .intro-introdaction h2 {
-    padding-top: 3rem;
+    font-size: 4rem;
+    padding-top: 2rem;
+    background: $gradient;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .intro-introdaction a {

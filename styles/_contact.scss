@@ -1,0 +1,51 @@
+.contact {
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-wrapper {
+    @include flex(center, center, column);
+    flex: 3 1 40rem;
+}
+
+.form-wrapper h2 {
+    margin: 4rem 0rem;
+}
+
+.form-wrapper span {
+    font-size: $big;
+    color: $contact-color;
+}
+
+.form-wrapper label {
+    display: block;
+}
+
+.form-wrapper input {
+    display: block;
+    margin: 3rem 0rem;
+    background: $background-color;
+    color: white;
+    border: none;
+    padding: 1rem;
+}
+
+.form-wrapper button{
+    padding: 1rem 8rem;
+    background: $contact-color;
+    color: white;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: background 0.6s ease-in-out;
+}
+
+button:hover {
+    background: rgb(10, 36, 31);
+}
+
+.contact img {
+    flex: 1 1 40rem;
+    object-fit: cover;
+}

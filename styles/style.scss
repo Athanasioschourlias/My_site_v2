@@ -4,9 +4,10 @@ $header3: 2.5rem;
 $header4: 2rem;
 $text: 2.5rem;
 $big: 7rem;
-$gradient: linear-gradient(left, #38d39f, #38a4d3);
+$gradient: linear-gradient(left, #5b2b83, #16b438);
 $background-color: #414141;
 $gray-text: #2c2c2c;
+$contact-color: rgb(17, 63, 55);
 
 @mixin flex($justify, $align, $direction) {
     display: flex;
@@ -14,13 +15,29 @@ $gray-text: #2c2c2c;
     align-items: $align;
     flex-direction: $direction;
 }
-@import "global";
-@import "intro";
 
-@media screen and(max-width){
+@import "global";
+@import"about";
+@import "intro";
+@import "gallery";
+@import"contact";
+@import"footer";
+@import"projects";
+@import"gallery(page)";
+
+@media screen and (max-width: 1357px){
+    .contact img{
+        display: none;
+    } 
+}
+
+@media screen and(max-width:950px){
     /* landing page */
-    .hero{
+    .intro{
         width: 100%;
+    }
+    .intro-introdaction p {
+        padding:5rem 3rem;
     }
     /* burger */
     .burger {
@@ -30,18 +47,19 @@ $gray-text: #2c2c2c;
     }
     .burger span {
         padding: 0.2rem 2rem;
-        background: var(--grey-text);
+        background: $gray-text;
         margin: 0.5rem 0rem;
         display: block;
         transition: all 0.5s ease-in-out;
     }
     .nav-links a{
         color: white;
-        font-size: var(--header3);
+        font-size: $header3;
         text-decoration: underline;
     }
     .nav-links {
-        background: var(--background-color);
+        background: rgb(48, 48, 48);
+        opacity: 1;
         width: 100%;
         height: 100%;
         position: fixed;
@@ -50,6 +68,49 @@ $gray-text: #2c2c2c;
         flex-direction: column;
         align-items: center;
         transition: transform 1s ease-in-out;
+    }
+    .nav-open {
+        transform: translateX(-100%);
+    }
+    .toggle .line1{
+        transform: rotateZ(45deg) translateY(300%);
+        background: white;
+    }
+    .toggle .line2{
+        opacity: 0;
+    }
+    .toggle .line3{
+        transform: rotateZ(-45deg) translateY(-300%);
+        background: white;
+    }
+    /* About section */
+    .about-text div {
+        padding: 3rem 3rem;
+    }
+    /* Gallery */
+    .gallery button{
+        opacity: 1;
+    }
+
+    .gallery img{
+        grid-row: auto;
+        grid-column: auto;
+    }
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+    .gallery-head{
+        display: none;
+    }
+    /* Footer */
+    
+    footer ul {
+        order: 1;
+    }
+    footer h4{
+        order: 2;
+        text-align: center;
+        padding: 1rem;
     }
 }
 

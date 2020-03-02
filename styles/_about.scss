@@ -1,0 +1,53 @@
+.about {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    color: white;
+    flex: 2 1 40rem;
+    @include flex(center, center, column);
+    justify-content: space-around;
+    background: $background-color;
+}
+
+.about-image {
+    flex: 1 1 40rem;
+    position: relative;
+}
+
+.about-image h5 {
+    position: absolute;
+    letter-spacing: 1rem;
+    top:20%;
+    left:50%;
+    transform: translate(-50%, -20%);
+    color: white;
+}
+
+.about-image h5:hover{
+    font-size: x-large;
+    transition: 650ms ease-in-out;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-text div {
+    padding: 3rem 7rem;
+}
+
+.about-text h3 {
+    padding: 2rem 0rem;
+    font-family: "Ruhl Medium";
+}
+
+.about-text h2{
+    font-family: "Vibes";
+    padding: 4rem;
+}

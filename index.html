@@ -17,14 +17,13 @@
     <header class="main-head">
         <nav>
             <div class="logo">
-                <img src="./icons/code.svg" alt="logo" />
-                <h1>Athanasios Chourlias</h1>
+                <a href="./index.html"><img src="./icons/code.svg" id="nav-icon" alt="logo" /></a>
+                <a href="./index.html"><h1>Athanasios Chourlias</h1></a>
             </div>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./projects.html">My work</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Gallery</a></li>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
             <div class="burger">
@@ -45,13 +44,80 @@
                     Perspiciatis odit veritatis distinctio nisi iure, 
                     ad dolor neque amet nihil enim.
                 </p>
-                <a href="#mywork">My work</a>
+                <a href="./projects.html">My work</a>
             </div>
             <div class="intro-images">
                 <img class="intro-thanos" src="./img/RBAV_181013_IAME-LEMANS_0009 1.png" alt="">
             </div>
         </section>
+        <section class="about" id="about">
+            <div class="about-image">
+                <a href="./about.html"><h5> ABOUT ME!!</h5></a>
+                <img src="./img/coding(about).png" alt="">
+            </div>
+            <div class="about-text">
+                <h2>Athanasios Chourlias</h2>
+                <div class="about-life">
+                    <h3>My life</h3>
+                    <p>My name is thanos,  I’m 19 years old and im currently studying software engineering at Harokopeio University of Athens.
+                        
+                    </p>
+                </div>
+                <div class="about-work">
+                    <h3>My work</h3>
+                    <p>This is a section where you can find all the projects I have completed(alone or with a team), every completed project 
+                        is clickable and it takes you to its GitHub repository, there you can find a full description of the project and inside
+                        the REAMME.md file all the instractions on how to operate the specific software you are looking at either if this is 
+                        a game or just an application for automation etc.
+                    </p>
+                </div>
+                <div class="about-contact">
+                    <h3>Get in touch</h3>
+                    <p>If you have a question from me, a proposal or you just want to say hi
+                        you can fill the form bellow and i will be in touch as soos as i see the message.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="gallery" id="gallery">
+            <header class="gallery-head">
+                <h2>Quallity Photographs</h2>
+                <p>Here you can find some of my favorite photos i have collected over the years</p>
+                <a class="gallery-link" href="./gallery.html"><h4>here you can find a hole page of them!!</h4></a>
+            </header>
+            <button><h3>Gallery!!</h3></button>
+            <img class="gallery1" src="./img/AI.png" alt="">
+            <img class="gallery2" src="./img/minimalworkstation 1.png" alt="">
+            <img class="gallery3" src="./img/gallery_3.png" alt="">
+            <img class="gallery4" src="./img/gallery_4.png" alt="">
+        </div>
+        <section class="contact" id="contact">
+            <div class="form-wrapper">
+                <h2>
+                    Get in <br />
+                    <span>touch.</span>
+                </h2>
+                <form>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email required">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <img src="./img/contact.png" alt="">
+        </section>
     </main>
+        <footer>
+        <h4>Athanasios Chourlias &copy; 2020</h4>
+        <ul>
+            <li><a href="#"><img src="./icons/github.svg" alt=""></a></li>
+            <li><a href="#"><img src="./icons/instagram.svg" alt=""></a></li>
+            <li><a href="#"><img src="./icons/twitter.svg" alt=""></a></li>
+            <li><a href="#"><img src="./icons/youtube-symbol.svg" alt=""></a></li>
+            <li><a href="#"><img src="./icons/steam.svg" alt=""></a></li>
+        </ul>
+    </footer>
 </body>
 <script src="./app.js"></script>
+<script src="./Nav-scroll.js"></script>
+<script src="./icon-change.js"></script>
 </html>

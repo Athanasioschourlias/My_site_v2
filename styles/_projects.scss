@@ -1,0 +1,52 @@
+.projects {
+    width: 95%;
+    margin: auto;
+    min-height: 90vh;
+    @include flex(space-between, center, row);
+    text-align: center;
+    flex-wrap: wrap;
+    h2 {
+        margin: 5rem;
+    }
+
+}
+
+.header-projects {
+    width: 95%;
+    margin: 0 0 0 auto;
+    z-index: 2;
+    position: sticky;
+    top: 0%;   
+}
+
+.header-projects{
+    transition: 500ms ease-in-out;
+    width: 100%;
+    background: $background-color;
+    color: white;
+    margin: auto;
+
+    .logo img{
+        padding: 0rem 0rem 0rem 3rem;
+    }
+
+    .logo a{
+        h1{
+            padding: 0rem 0rem 0rem 3rem;
+            color: white;
+        }
+    }
+
+    nav{
+        ul{
+            a{
+                color: white;
+            }
+        } 
+    }
+}
+
+.Flynow,
+.thanos {
+    flex: 1 1 40rem;
+}
