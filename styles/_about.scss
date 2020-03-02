@@ -32,11 +32,28 @@
     color: rgba(255, 255, 255, 0.7);
 }
 
-.about-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.about-image  {
+    .coding-img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
+/* Arrow thing */
+
+// .arrow-down-about{
+//     position: absolute;
+//     left: 50%;
+//     right: 43.49%;
+//     top: 90.28%;
+//     bottom: 1.39%;
+//     opacity: 0.4;
+// }
+
+// .arrow-down-about:hover{
+//     opacity: 0.7;
+//     transition: 1s ease-in-out;
+// }
 
 .about-text div {
     padding: 3rem 7rem;

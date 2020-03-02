@@ -126,6 +126,23 @@ ul li:nth-child(4):hover  {
     object-fit: cover;
 }
 
+/* arrow thing */
+
+.arrow-down{
+    position: absolute;
+    left: 29.8%;
+    right: 43.49%;
+    top: 90.28%;
+    bottom: 1.39%;
+    opacity: 0.4;
+}
+
+.arrow-down:hover{
+    opacity: 0.7;
+    transition: 1s ease-in-out;
+}
+
+
 /* ANIMATIONS */
 
 @keyframes opening {
