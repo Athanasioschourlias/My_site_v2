@@ -6,9 +6,14 @@
     text-align: center;
     flex-wrap: wrap;
     h2 {
-        margin: 5rem;
-    }
+        margin: 3rem;
+    }  
 
+}
+
+.projects img{
+    border-radius: 2rem;
+    margin: 2rem;
 }
 
 .header-projects {
@@ -47,6 +52,7 @@
 }
 
 .Flynow,
-.thanos {
-    flex: 1 1 40rem;
+.thanos,
+.transpiler {
+    flex: 1 1 65rem;
 }
