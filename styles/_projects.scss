@@ -6,7 +6,7 @@
     text-align: center;
     flex-wrap: wrap;
     h2 {
-        margin: 3rem;
+        margin: 2rem;
     }  
 
 }
@@ -51,8 +51,10 @@
     }
 }
 
-.Flynow,
+.portfolio,
 .thanos,
-.transpiler {
-    flex: 1 1 65rem;
+.transpiler,
+.cards-game,
+.personal-site {
+    flex: 1 1 40rem;
 }

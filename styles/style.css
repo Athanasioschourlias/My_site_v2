@@ -575,7 +575,7 @@ footer h4 {
 }
 
 .projects h2 {
-  margin: 3rem;
+  margin: 2rem;
 }
 
 .projects img {
@@ -614,12 +614,14 @@ footer h4 {
   color: white;
 }
 
-.Flynow,
+.portfolio,
 .thanos,
-.transpiler {
+.transpiler,
+.cards-game,
+.personal-site {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 65rem;
-          flex: 1 1 65rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
 }
 
 .gallery-page {
