@@ -10,7 +10,7 @@
 // (function(
 //     entries,
 //     sectionOneObserver
-// ){
+// ){\
 //     if(!entry.isIntersecting) {
 //         nav.src = "./icons/code(white).svg";
 //     } else {
