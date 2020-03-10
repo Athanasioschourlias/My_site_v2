@@ -21,7 +21,7 @@
     margin: 0 0 0 auto;
     z-index: 2;
     position: sticky;
-    top: 0%;   
+    top: 0%; 
 }
 
 .header-projects{
@@ -29,8 +29,6 @@
     width: 100%;
     background: $background-color;
     color: white;
-    margin: auto;
-
     .logo img{
         padding: 0rem 0rem 0rem 3rem;
     }
@@ -49,6 +47,23 @@
             }
         } 
     }
+}
+
+.resume{
+    flex: 0 0 10rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    background: rgba(17, 168, 17, 0.863);
+    color: white;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+.resume:hover{
+    background: rgba(17, 145, 17, 0.747);
+    transition: 0.5s ease-in-out;
 }
 
 .portfolio,

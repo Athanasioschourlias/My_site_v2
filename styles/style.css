@@ -496,7 +496,7 @@ ul li:nth-child(4):hover {
   transition: background 0.6s ease-in-out;
 }
 
-button:hover {
+.form-wrapper button:hover {
   background: #0a241f;
 }
 
@@ -598,7 +598,6 @@ footer h4 {
   width: 100%;
   background: #414141;
   color: white;
-  margin: auto;
 }
 
 .header-projects .logo img {
@@ -612,6 +611,27 @@ footer h4 {
 
 .header-projects nav ul a {
   color: white;
+}
+
+.resume {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 10rem;
+          flex: 0 0 10rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  background: rgba(17, 168, 17, 0.863);
+  color: white;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  -webkit-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+}
+
+.resume:hover {
+  background: rgba(17, 145, 17, 0.747);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .portfolio,
@@ -661,6 +681,9 @@ footer h4 {
   }
   .intro-introdaction p {
     padding: 5rem 3rem;
+  }
+  .arrow-down {
+    display: none;
   }
   /* burger */
   .burger {
@@ -735,6 +758,10 @@ footer h4 {
         grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   }
   .gallery-head {
+    display: none;
+  }
+  /* My work(page) */
+  .resume {
     display: none;
   }
   /* Footer */

@@ -40,6 +40,10 @@ $contact-color: rgb(17, 63, 55);
     .intro-introdaction p {
         padding:5rem 3rem;
     }
+
+    .arrow-down{
+        display: none;
+    }
     /* burger */
     .burger {
         position: relative;
@@ -103,6 +107,12 @@ $contact-color: rgb(17, 63, 55);
     .gallery-head{
         display: none;
     }
+    /* My work(page) */
+
+    .resume{
+        display: none;
+    }
+
     /* Footer */
     
     footer ul {
