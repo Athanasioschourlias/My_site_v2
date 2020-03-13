@@ -292,7 +292,7 @@ ul li:nth-child(4):hover {
   -webkit-text-fill-color: transparent;
 }
 
-.intro-introdaction a {
+.intro-introdaction .button {
   padding: 2rem 8rem;
   border: 3px solid black;
   margin-bottom: 4rem;
@@ -323,11 +323,20 @@ ul li:nth-child(4):hover {
 
 /* arrow thing */
 .arrow-down {
-  position: absolute;
-  left: 29.8%;
-  right: 43.49%;
-  top: 90.28%;
-  bottom: 1.39%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   opacity: 0.4;
 }
 
@@ -670,14 +679,44 @@ footer h4 {
 .articles {
   width: 95%;
   margin: auto;
+}
+
+.head-skills h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 4rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  background: -webkit-gradient(linear, left top, right top, from(#5b2b83), to(#16b438));
+  background: linear-gradient(left, #5b2b83, #16b438);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.skills h1 {
-  -webkit-transform: translate(100%);
-          transform: translate(100%);
+.article p {
+  padding-left: 1rem;
+  padding-bottom: 5rem;
+}
+
+.title {
+  margin: 0rem 0rem 1rem 0rem;
 }
 
 @media screen and (max-width: 1357px) {

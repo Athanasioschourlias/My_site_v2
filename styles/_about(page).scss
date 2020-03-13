@@ -1,12 +1,31 @@
 .articles {
     width: 95%;
     margin: auto;
-    display: flex;
 }
 
-.skills{
-    // display: flex;
-    h1{
-        transform: translate(100%);
+.head-skills h1{
+    @include flex(space-around, center, column);
+    font-size: 4rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    background: $gradient;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.article {
+    display: flex;
+
+    p {
+        padding-left: 1rem;
+        padding-bottom: 5rem;
+        // justify-content: space-around;
+        // flex-direction: column;
     }
+    
+}
+
+.title {
+    margin: 0rem 0rem 1rem 0rem;
 }

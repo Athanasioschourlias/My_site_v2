@@ -102,7 +102,7 @@ ul li:nth-child(4):hover  {
     -webkit-text-fill-color: transparent;
 }
 
-.intro-introdaction a {
+.intro-introdaction .button {
     padding: 2rem 8rem;
     border: 3px solid black;
     margin-bottom: 4rem;
@@ -129,13 +129,12 @@ ul li:nth-child(4):hover  {
 /* arrow thing */
 
 .arrow-down{
-    position: absolute;
-    left: 29.8%;
-    right: 43.49%;
-    // transform: translatex(50px);
-    top: 90.28%;
-    bottom: 1.39%;
-    // transform: translatey(50px);
+    position: relative;
+    // left: 29.8%;
+    // right: 43.49%;
+    // top: 90.28%;
+    // bottom: 1.39%;
+    @include flex(center, center, column);
     opacity: 0.4;
 }
 
