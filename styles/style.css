@@ -719,6 +719,10 @@ footer h4 {
   margin: 0rem 0rem 1rem 0rem;
 }
 
+.paragraph {
+  padding: 2rem 0rem 4rem 0rem;
+}
+
 @media screen and (max-width: 1357px) {
   .contact img {
     display: none;
