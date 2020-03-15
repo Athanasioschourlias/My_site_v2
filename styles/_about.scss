@@ -7,8 +7,7 @@
 .about-text {
     color: white;
     flex: 2 1 40rem;
-    @include flex(center, center, column);
-    justify-content: space-around;
+    @include flex(space-around, center, column);
     background: $background-color;
 }
 
