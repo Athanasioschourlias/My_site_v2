@@ -34,3 +34,63 @@
     padding: 2rem 0rem 4rem 0rem;
 
 }
+
+.cards {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    flex: 1 1 25rem;
+    margin: 2rem 5rem;
+    min-height: 40vh;
+    border-radius: 2rem;
+    box-shadow: (0px 10px 10px rgba(0, 0, 0, 0.3), 0px 20px 20px rgba(0, 0, 0, 0.3));
+
+    .card-head {
+        color: white;
+        background-color: $background-color;
+        border-radius: 2rem 2rem 0rem 0rem;
+    }
+
+    h1 {
+        padding: 0rem 0rem 0rem 2rem;
+    }
+
+    h4 {
+        padding: 0rem 0rem 0.6rem 2rem;
+    }
+
+    li{
+        font-size: 2rem;
+        padding: 0.5rem;
+    }
+
+    ul{
+        list-style: disc;
+        padding: 0rem 0rem 3rem 4rem;
+    }
+}
+
+.card-blog {
+    flex: 1 1 25rem;
+    margin: 2rem 5rem;
+    min-height: 60vh;
+    border-radius: 2rem;
+
+    h3{
+        color: white;
+        @include flex(center, center, column);
+    }
+
+}
+
+.card-blog-img{
+    // background: url(../img/typing.jpg);
+    background-repeat: no-repeat;
+    background-image: url(../img/typing.jpg);
+    background-size: cover;
+    background-position: center;
+}

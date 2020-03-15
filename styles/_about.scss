@@ -67,3 +67,13 @@
     font-family: "Vibes";
     padding: 4rem;
 }
+
+.about-software a{
+    color: white;
+}
+
+.about-software h3:hover {
+    font-size: 2.7rem;
+    transition: 600ms ease-in-out;
+    color: rgba(255, 255, 255, 0.7);
+}
