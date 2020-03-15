@@ -74,9 +74,9 @@ ul li:nth-child(4):hover  {
     text-decoration: underline;
 }
 
-ul li:nth-child(5):hover  {
-    text-decoration: underline;
-}
+// ul li:nth-child(5):hover  {
+//     text-decoration: underline;
+// }
 
 .intro{
     min-height: 90vh;
@@ -163,6 +163,8 @@ ul li:nth-child(5):hover  {
     color: white;
 }
 
-.about-work a:hover {
-    background: red;
+.about-work h3:hover {
+    font-size: 2.7rem;
+    transition: 600ms ease-in-out;
+    color: rgba(255, 255, 255, 0.7);
 }
