@@ -735,63 +735,15 @@ footer h4 {
   padding: 2rem 0rem 4rem 0rem;
 }
 
-.cards {
-  width: 90%;
-  margin: auto;
+.browse {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.card {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 25rem;
-          flex: 1 1 25rem;
-  margin: 2rem 5rem;
-  min-height: 40vh;
-  border-radius: 2rem;
-  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3), 0px 20px 20px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3), 0px 20px 20px rgba(0, 0, 0, 0.3);
-}
-
-.card .card-head {
-  color: white;
-  background-color: #414141;
-  border-radius: 2rem 2rem 0rem 0rem;
-}
-
-.card h1 {
-  padding: 0rem 0rem 0rem 2rem;
-}
-
-.card h4 {
-  padding: 0rem 0rem 0.6rem 2rem;
-}
-
-.card li {
-  font-size: 2rem;
-  padding: 0.5rem;
-}
-
-.card ul {
-  list-style: disc;
-  padding: 0rem 0rem 3rem 4rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .card-blog {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 25rem;
-          flex: 1 1 25rem;
-  margin: 2rem 5rem;
-  min-height: 60vh;
-  border-radius: 2rem;
-}
-
-.card-blog h3 {
-  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -805,11 +757,28 @@ footer h4 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 25rem;
+          flex: 1 1 25rem;
+  margin: 2rem 5rem;
+  min-height: 50vh;
+  border-radius: 2rem;
+}
+
+.card-blog h3 {
+  color: white;
 }
 
 .card-blog-img {
   background-repeat: no-repeat;
-  background-image: url(../img/typing.jpg);
+  background-image: url(../img/Blog-photos/typing.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-blog-img2 {
+  background-repeat: no-repeat;
+  background-image: url(../img/Blog-photos/macbook-on-bed-3201763.jpg);
   background-size: cover;
   background-position: center;
 }
