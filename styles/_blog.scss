@@ -30,10 +30,7 @@
     h4{
         padding: 0rem 0rem 2rem 3rem;
     }
-    a{
-        align-self: end;
-        
-    }
+
 }
 
 .post-footer{
@@ -50,6 +47,12 @@
     a{
         grid-column: 11/13;
         color: rgba(0,0,0,0.5);
+        text-decoration: none;
+    }
+    
+    a:hover{
+        transition: 0.7s ease-in-out;
+        color: rgba(0,0,0,0.63);
     }
 }
 

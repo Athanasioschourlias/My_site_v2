@@ -826,12 +826,6 @@ footer h4 {
   padding: 0rem 0rem 2rem 3rem;
 }
 
-.post a {
-  -ms-flex-item-align: end;
-      -ms-grid-row-align: end;
-      align-self: end;
-}
-
 .post-footer {
   display: -ms-grid;
   display: grid;
@@ -853,6 +847,13 @@ footer h4 {
   -ms-grid-column-span: 2;
   grid-column: 11/13;
   color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.post-footer a:hover {
+  -webkit-transition: 0.7s ease-in-out;
+  transition: 0.7s ease-in-out;
+  color: rgba(0, 0, 0, 0.63);
 }
 
 .blog-side-bar {
