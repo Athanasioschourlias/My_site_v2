@@ -2,7 +2,7 @@
     width: 96%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(6 , 1fr);
+    grid-template-columns: repeat(8 , 1fr);
 }
 
 .post{
@@ -12,7 +12,7 @@
     box-shadow: 0px 10px 10px rgba(0,0,0,0.3),0px 10px 10px rgba(0,0,0,0.2);
     border-radius: 2rem;
     min-height: 60vh;
-    grid-column: 1/5;
+    grid-column: 1/6;
 
     img{
         object-fit: cover;
@@ -50,6 +50,13 @@
         grid-column: 11/13;
         color: rgba(0,0,0,0.5);
     }
+}
+
+.blog-side-bar{
+    margin: 2rem 5rem;
+    border-radius: 2rem;
+    min-height: 60vh;
+    grid-column: 7/9;
 }
 
 @media screen and (max-width: 1680px) {
