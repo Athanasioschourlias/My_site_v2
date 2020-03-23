@@ -783,6 +783,126 @@ footer h4 {
   background-position: center;
 }
 
+.blog-posts {
+  width: 96%;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+}
+
+.post {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 30vh 40vh;
+      grid-template-rows: 30vh 40vh;
+  margin: 2rem 5rem;
+  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3), 0px 10px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3), 0px 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  min-height: 60vh;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+}
+
+.post img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  width: 100%;
+  max-height: 100%;
+}
+
+.post h3 {
+  padding: 3rem;
+}
+
+.post h4 {
+  padding: 0rem 0rem 2rem 3rem;
+}
+
+.post a {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+.post-footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+.post-footer p {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.post-footer a {
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-column: 11/13;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1680px) {
+  .post-footer a {
+    -ms-grid-column: 10;
+    -ms-grid-column-span: 3;
+    grid-column: 10/13;
+  }
+}
+
+@media screen and (max-width: 1238px) {
+  .post-footer a {
+    -ms-grid-column: 9;
+    -ms-grid-column-span: 4;
+    grid-column: 9/13;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .post-footer a {
+    -ms-grid-column: 8;
+    -ms-grid-column-span: 5;
+    grid-column: 8/13;
+  }
+}
+
+@media screen and (max-width: 897px) {
+  .post-footer a {
+    -ms-grid-column: 7;
+    -ms-grid-column-span: 6;
+    grid-column: 7/13;
+  }
+}
+
+@media screen and (max-width: 808px) {
+  .post-footer a {
+    -ms-grid-column: 6;
+    -ms-grid-column-span: 7;
+    grid-column: 6/13;
+  }
+}
+
+@media screen and (max-width: 746px) {
+  .post-footer a {
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 8;
+    grid-column: 5/13;
+  }
+}
+
 @media screen and (max-width: 1357px) {
   .contact img {
     display: none;
