@@ -41,6 +41,12 @@
     transition: background 0.6s ease-in-out;
 }
 
+.form-control {
+    margin: 0rem 0rem 3rem 0rem;
+    display: block;
+    width: 100%;
+}
+
 .form-wrapper button:hover {
     background: rgb(10, 36, 31);
 }

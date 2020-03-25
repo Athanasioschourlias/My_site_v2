@@ -31,6 +31,11 @@ body {
           animation: opening 1s ease-in-out;
 }
 
+a {
+  color: #2c2c2c;
+  text-decoration: none;
+}
+
 h1 {
   font-size: 5.5rem;
 }
@@ -53,11 +58,6 @@ h4, h5 {
 
 ul {
   list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: #2c2c2c;
 }
 
 .about {
@@ -517,6 +517,12 @@ nav ul li:nth-child(5):hover {
   transition: background 0.6s ease-in-out;
 }
 
+.form-control {
+  margin: 0rem 0rem 3rem 0rem;
+  display: block;
+  width: 100%;
+}
+
 .form-wrapper button:hover {
   background: #0a241f;
 }
@@ -847,7 +853,10 @@ footer h4 {
 
 .search-form input {
   width: 100%;
-  margin: 0rem 0rem 1rem 0rem;
+  margin: 2rem 2rem 0rem 2rem;
+  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2), 0px 10px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2), 0px 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
   border-style: none;
   font-size: medium;
 }
@@ -855,6 +864,7 @@ footer h4 {
 .search-form button {
   width: 100%;
   border-style: none;
+  margin: 2rem;
   border-radius: 2rem;
   background-color: #0d3a3b;
   color: white;
@@ -862,7 +872,7 @@ footer h4 {
 
 /*BRAKE POINTS FOR THE CARDS("READ ME >>")SIGN AT THE ABOUT PAGE*/
 /*BRAKE POINTS FOR THE CARDS("READ ME >>")SIGN AT THE ABOUT PAGE !!!!!!!!!!END!!!!!!!!!!!*/
-@media screen and (max-width: 1357px) {
+@media screen and (max-width: 1400px) {
   .contact img {
     display: none;
   }

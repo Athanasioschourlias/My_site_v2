@@ -45,13 +45,16 @@
 .search-form{
     input{
         width: 100%;
-        margin: 0rem 0rem 1rem 0rem;
+        margin: 2rem 2rem 0rem 2rem;
+        box-shadow: (0px 5px 5px rgba(0, 0, 0, 0.2), 0px 10px 10px rgba(0, 0, 0, 0.2));
+        border-radius: 2rem;
         border-style: none;
         font-size: medium;
     }
     button{
         width: 100%;
         border-style: none;
+        margin: 2rem;
         border-radius: 2rem;
         background-color: rgb(13, 58, 59);
         color: white;
