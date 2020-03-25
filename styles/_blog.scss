@@ -11,7 +11,6 @@
     margin: 2rem 5rem;
     box-shadow: 0px 10px 10px rgba(0,0,0,0.3),0px 10px 10px rgba(0,0,0,0.2);
     border-radius: 2rem;
-    min-height: 60vh;
     grid-column: 1/6;
 
     img{
@@ -28,86 +27,43 @@
         padding: 3rem;
     }
     h4{
-        padding: 0rem 0rem 2rem 3rem;
+        padding: 0rem 2rem 2rem 3rem;
     }
 
 }
 
-.post-footer{
-    display: grid;
-    grid-template-columns: repeat(12 , 1fr);
-    padding: 0rem 2rem 0rem 2rem;
-
-    p{
-        grid-column: 1/2;
-        margin: 0;
-        color: rgba(0,0,0,0.5);
-    }
+.paragraph-blog{
+    display: flex;
+    flex-direction: column;
 
     a{
-        grid-column: 11/13;
         color: rgba(0,0,0,0.5);
-        text-decoration: none;
-    }
-    
-    a:hover{
-        transition: 0.7s ease-in-out;
-        color: rgba(0,0,0,0.63);
     }
 }
 
 .blog-side-bar{
     margin: 2rem 5rem;
     border-radius: 2rem;
-    min-height: 60vh;
     grid-column: 7/9;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    
 }
 
-@media screen and (max-width: 1680px) {
-    .post-footer{ 
-        a{
-            grid-column: 10/13;
-        }
+.search-form{
+    input{
+        width: 100%;
+        margin: 0rem 0rem 1rem 0rem;
+        border-style: none;
+        font-size: medium;
     }
-}
-
-@media screen and (max-width: 1238px) {
-    .post-footer{ 
-        a{
-            grid-column: 9/13;
-        }
-    }
-}
-
-@media screen and (max-width: 1023px) {
-    .post-footer{ 
-        a{
-            grid-column: 8/13;
-        }
-    }
-}
-
-@media screen and (max-width: 897px) {
-    .post-footer{ 
-        a{
-            grid-column: 7/13;
-        }
-    }
-}
-
-@media screen and (max-width: 808px) {
-    .post-footer{ 
-        a{
-            grid-column: 6/13;
-        }
-    }
-}
-
-@media screen and (max-width: 746px) {
-    .post-footer{ 
-        a{
-            grid-column: 5/13;
-        }
+    button{
+        width: 100%;
+        border-style: none;
+        border-radius: 2rem;
+        background-color: rgb(13, 58, 59);
+        color: white;
     }
 }
 

@@ -776,11 +776,19 @@ footer h4 {
   background-position: center;
 }
 
+.card-blog-img:hover {
+  background-size: 120%;
+}
+
 .card-blog-img2 {
   background-repeat: no-repeat;
   background-image: url(../img/Blog-photos/macbook-on-bed-3201763.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.card-blog-img2:hover {
+  background-size: 120%;
 }
 
 .blog-posts {
@@ -801,7 +809,6 @@ footer h4 {
   -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3), 0px 10px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3), 0px 10px 10px rgba(0, 0, 0, 0.2);
   border-radius: 2rem;
-  min-height: 60vh;
   -ms-grid-column: 1;
   -ms-grid-column-span: 5;
   grid-column: 1/6;
@@ -823,96 +830,57 @@ footer h4 {
 }
 
 .post h4 {
-  padding: 0rem 0rem 2rem 3rem;
+  padding: 0rem 2rem 2rem 3rem;
 }
 
-.post-footer {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[12];
-      grid-template-columns: repeat(12, 1fr);
-  padding: 0rem 2rem 0rem 2rem;
+.paragraph-blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.post-footer p {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1/2;
-  margin: 0;
+.paragraph-blog a {
   color: rgba(0, 0, 0, 0.5);
-}
-
-.post-footer a {
-  -ms-grid-column: 11;
-  -ms-grid-column-span: 2;
-  grid-column: 11/13;
-  color: rgba(0, 0, 0, 0.5);
-  text-decoration: none;
-}
-
-.post-footer a:hover {
-  -webkit-transition: 0.7s ease-in-out;
-  transition: 0.7s ease-in-out;
-  color: rgba(0, 0, 0, 0.63);
 }
 
 .blog-side-bar {
   margin: 2rem 5rem;
   border-radius: 2rem;
-  min-height: 60vh;
   -ms-grid-column: 7;
   -ms-grid-column-span: 2;
   grid-column: 7/9;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-@media screen and (max-width: 1680px) {
-  .post-footer a {
-    -ms-grid-column: 10;
-    -ms-grid-column-span: 3;
-    grid-column: 10/13;
-  }
+.search-form input {
+  width: 100%;
+  margin: 0rem 0rem 1rem 0rem;
+  border-style: none;
+  font-size: medium;
 }
 
-@media screen and (max-width: 1238px) {
-  .post-footer a {
-    -ms-grid-column: 9;
-    -ms-grid-column-span: 4;
-    grid-column: 9/13;
-  }
+.search-form button {
+  width: 100%;
+  border-style: none;
+  border-radius: 2rem;
+  background-color: #0d3a3b;
+  color: white;
 }
 
-@media screen and (max-width: 1023px) {
-  .post-footer a {
-    -ms-grid-column: 8;
-    -ms-grid-column-span: 5;
-    grid-column: 8/13;
-  }
-}
-
-@media screen and (max-width: 897px) {
-  .post-footer a {
-    -ms-grid-column: 7;
-    -ms-grid-column-span: 6;
-    grid-column: 7/13;
-  }
-}
-
-@media screen and (max-width: 808px) {
-  .post-footer a {
-    -ms-grid-column: 6;
-    -ms-grid-column-span: 7;
-    grid-column: 6/13;
-  }
-}
-
-@media screen and (max-width: 746px) {
-  .post-footer a {
-    -ms-grid-column: 5;
-    -ms-grid-column-span: 8;
-    grid-column: 5/13;
-  }
-}
-
+/*BRAKE POINTS FOR THE CARDS("READ ME >>")SIGN AT THE ABOUT PAGE*/
+/*BRAKE POINTS FOR THE CARDS("READ ME >>")SIGN AT THE ABOUT PAGE !!!!!!!!!!END!!!!!!!!!!!*/
 @media screen and (max-width: 1357px) {
   .contact img {
     display: none;
@@ -1008,6 +976,12 @@ footer h4 {
   /* My work(page) */
   .resume {
     display: none;
+  }
+  /*Blog page*/
+  .blog-side-bar {
+    -ms-grid-column: 6;
+    -ms-grid-column-span: 3;
+    grid-column: 6/9;
   }
   /* Footer */
   footer ul {
