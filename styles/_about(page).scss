@@ -93,25 +93,24 @@
 }
 
 .card-blog-img{
-    // background: url(../img/typing.jpg);
     background-repeat: no-repeat;
-    background-image: url(../img/Blog-photos/typing.jpg);
+    background: linear-gradient(rgba(37, 37, 37, 0.371), rgba(37, 37, 37, 0.3)) ,url(../img/Blog-photos/typing.jpg);
     background-size: cover;
     background-position: center;
 }
 
+
 .card-blog-img:hover {
-    background-size: 120%;
+    background-size: 115%;
 }
 
 .card-blog-img2{
-    // background: url(../img/typing.jpg);
     background-repeat: no-repeat;
-    background-image: url(../img/Blog-photos/macbook-on-bed-3201763.jpg);
+    background-image: linear-gradient(rgba(37, 37, 37, 0.371), rgba(37, 37, 37, 0.3)) ,url(../img/Blog-photos/macbook-on-bed-3201763.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .card-blog-img2:hover {
-    background-size: 120%;
+    background-size: 115%;
 }

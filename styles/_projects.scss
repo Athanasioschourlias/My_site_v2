@@ -1,6 +1,6 @@
 .projects {
     width: 95%;
-    margin: 0 0 0 auto;
+    margin:auto;
     min-height: 90vh;
     @include flex(space-between, center, row);
     text-align: center;
@@ -38,6 +38,15 @@
             color: white;
         }
     }
+    .line1{
+        background: white;
+    }
+    .line2{
+        background: white;
+    }
+    .line3{
+        background: white;
+    }
 
     nav{
         ul{
@@ -58,6 +67,21 @@
     width: 100%;
     cursor: pointer;
     transition: background 0.2s ease-in-out;
+}
+
+.burger-resume{
+    padding: 1rem;
+    border-radius: 2rem;
+    background: rgba(17, 168, 17, 0.863);
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+.burger-resume:hover{
+    background: rgba(17, 145, 17, 0.747);
+    transition: 0.5s ease-in-out;
 }
 
 .resume:hover{

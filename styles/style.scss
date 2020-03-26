@@ -28,57 +28,6 @@ $contact-color: rgb(17, 63, 55);
 @import"about(page)";
 @import"blog";
 
-/*BRAKE POINTS FOR THE CARDS("READ ME >>")SIGN AT THE ABOUT PAGE*/
-
-// @media screen and (max-width: 1680px) {
-//     .post-footer{ 
-//         a{
-//             grid-column: 10/13;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 1238px) {
-//     .post-footer{ 
-//         a{
-//             grid-column: 9/13;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 1023px) {
-//     .post-footer{ 
-//         a{
-//             grid-column: 8/13;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 897px) {
-//     .post-footer{ 
-//         a{
-//             grid-column: 7/13;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 808px) {
-//     .post-footer{ 
-//         a{
-//             grid-column: 6/13;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 746px) {
-//     .post-footer{ 
-//         a{
-//             grid-column: 5/13;
-//         }
-//     }
-// }
-
-/*BRAKE POINTS FOR THE CARDS("READ ME >>")SIGN AT THE ABOUT PAGE !!!!!!!!!!END!!!!!!!!!!!*/
 
 @media screen and (max-width: 1400px){
     .contact img{
@@ -111,13 +60,18 @@ $contact-color: rgb(17, 63, 55);
         display: block;
         transition: all 0.5s ease-in-out;
     }
+    //! JUNKY SOLUTION FOR THE UNDERLINING AT THE BURGER THING
     .nav-links a{
         color: white;
         font-size: $header3;
-        text-decoration: underline;
+    }
+    .nav-links li:nth-child(6){
+        a{
+            text-decoration: none;
+        }
     }
     .nav-links {
-        background: rgb(48, 48, 48);
+        background: rgba(48, 48, 48, 0.857);
         opacity: 1;
         width: 100%;
         height: 100%;

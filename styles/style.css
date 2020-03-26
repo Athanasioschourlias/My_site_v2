@@ -93,6 +93,14 @@ ul {
   background: #414141;
 }
 
+.about-goals ul {
+  list-style: disc;
+}
+
+.about-goals ul li {
+  margin: 3rem 0rem 3rem 3rem;
+}
+
 .about-image {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 40rem;
@@ -585,7 +593,7 @@ footer h4 {
 
 .projects {
   width: 95%;
-  margin: 0 0 0 auto;
+  margin: auto;
   min-height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -639,6 +647,18 @@ footer h4 {
   color: white;
 }
 
+.header-projects .line1 {
+  background: white;
+}
+
+.header-projects .line2 {
+  background: white;
+}
+
+.header-projects .line3 {
+  background: white;
+}
+
 .header-projects nav ul a {
   color: white;
 }
@@ -656,6 +676,23 @@ footer h4 {
   cursor: pointer;
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
+}
+
+.burger-resume {
+  padding: 1rem;
+  border-radius: 2rem;
+  background: rgba(17, 168, 17, 0.863);
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  -webkit-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+}
+
+.burger-resume:hover {
+  background: rgba(17, 145, 17, 0.747);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .resume:hover {
@@ -781,24 +818,26 @@ footer h4 {
 
 .card-blog-img {
   background-repeat: no-repeat;
-  background-image: url(../img/Blog-photos/typing.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(37, 37, 37, 0.371)), to(rgba(37, 37, 37, 0.3))), url(../img/Blog-photos/typing.jpg);
+  background: linear-gradient(rgba(37, 37, 37, 0.371), rgba(37, 37, 37, 0.3)), url(../img/Blog-photos/typing.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .card-blog-img:hover {
-  background-size: 120%;
+  background-size: 115%;
 }
 
 .card-blog-img2 {
   background-repeat: no-repeat;
-  background-image: url(../img/Blog-photos/macbook-on-bed-3201763.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(37, 37, 37, 0.371)), to(rgba(37, 37, 37, 0.3))), url(../img/Blog-photos/macbook-on-bed-3201763.jpg);
+  background-image: linear-gradient(rgba(37, 37, 37, 0.371), rgba(37, 37, 37, 0.3)), url(../img/Blog-photos/macbook-on-bed-3201763.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .card-blog-img2:hover {
-  background-size: 120%;
+  background-size: 115%;
 }
 
 .blog-posts {
@@ -875,8 +914,6 @@ footer h4 {
   color: white;
 }
 
-/*BRAKE POINTS FOR THE CARDS("READ ME >>")SIGN AT THE ABOUT PAGE*/
-/*BRAKE POINTS FOR THE CARDS("READ ME >>")SIGN AT THE ABOUT PAGE !!!!!!!!!!END!!!!!!!!!!!*/
 @media screen and (max-width: 1400px) {
   .contact img {
     display: none;
@@ -911,10 +948,12 @@ footer h4 {
   .nav-links a {
     color: white;
     font-size: 2.5rem;
-    text-decoration: underline;
+  }
+  .nav-links li:nth-child(6) a {
+    text-decoration: none;
   }
   .nav-links {
-    background: #303030;
+    background: rgba(48, 48, 48, 0.857);
     opacity: 1;
     width: 100%;
     height: 100%;
