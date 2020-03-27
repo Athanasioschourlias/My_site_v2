@@ -35,6 +35,24 @@ $contact-color: rgb(17, 63, 55);
     } 
 }
 
+@media screen and(max-width:670px){
+    .card{
+        grid-column: 1/6;
+    }
+}
+
+@media screen and(max-width:750px){
+    .projects img{
+        width: 90%;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+}
+
 @media screen and(max-width:950px){
     /* landing page */
     .intro{
@@ -60,7 +78,6 @@ $contact-color: rgb(17, 63, 55);
         display: block;
         transition: all 0.5s ease-in-out;
     }
-    //! JUNKY SOLUTION FOR THE UNDERLINING AT THE BURGER THING
     .nav-links a{
         color: white;
         font-size: $header3;
