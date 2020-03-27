@@ -606,13 +606,11 @@ footer h4 {
 .projects {
   width: 95%;
   margin: auto;
-  min-height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -634,12 +632,24 @@ footer h4 {
   margin: 2rem;
 }
 
-.header-projects {
-  width: 95%;
-  z-index: 2;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0%;
+.cards-game:hover {
+  text-decoration: underline;
+}
+
+.transpiler:hover {
+  text-decoration: underline;
+}
+
+.personal-site:hover {
+  text-decoration: underline;
+}
+
+.portfolio:hover {
+  text-decoration: underline;
+}
+
+.thanos:hover {
+  text-decoration: underline;
 }
 
 .portfolio,
@@ -648,8 +658,16 @@ footer h4 {
 .cards-game,
 .personal-site {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+      -ms-flex: 1 1 50rem;
+          flex: 1 1 50rem;
+}
+
+.header-projects {
+  width: 95%;
+  z-index: 2;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
 }
 
 .header-projects {
@@ -942,13 +960,7 @@ footer h4 {
 
 @media screen and (max-width: 750px) {
   .projects img {
-    width: 90%;
-  }
-  h2 {
-    font-size: 2rem;
-  }
-  h3 {
-    font-size: 1.5rem;
+    width: 80%;
   }
 }
 

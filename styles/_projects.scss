@@ -1,8 +1,7 @@
 .projects {
     width: 95%;
-    margin:auto;
-    min-height: 90vh;
-    @include flex(space-between, center, row);
+    margin: auto;
+    @include flex(space-around, center, row);
     text-align: center;
     flex-wrap: wrap;
     h2 {
@@ -16,11 +15,24 @@
     margin: 2rem;
 }
 
-.header-projects {
-    width: 95%;
-    z-index: 2;
-    position: sticky;
-    top: 0%; 
+.cards-game:hover {
+    text-decoration: underline;
+}
+
+.transpiler:hover {
+    text-decoration: underline;
+}
+
+.personal-site:hover {
+    text-decoration: underline;
+}
+
+.portfolio:hover {
+    text-decoration: underline;
+}
+
+.thanos:hover {
+    text-decoration: underline;
 }
 
 .portfolio,
@@ -28,8 +40,16 @@
 .transpiler,
 .cards-game,
 .personal-site {
-    flex: 1 1 40rem;
+    flex: 1 1 50rem;
 }
+
+.header-projects {
+    width: 95%;
+    z-index: 2;
+    position: sticky;
+    top: 0%; 
+}
+
 
 .header-projects{
     transition: 500ms ease-in-out;
