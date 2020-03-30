@@ -774,6 +774,10 @@ footer h4 {
   margin: auto;
 }
 
+.articles a:hover {
+  text-decoration: underline;
+}
+
 .head-skills h1 {
   display: -webkit-box;
   display: -ms-flexbox;

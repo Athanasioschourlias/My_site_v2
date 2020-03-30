@@ -1,6 +1,10 @@
 .articles {
     width: 95%;
     margin: auto;
+
+    a:hover{
+        text-decoration: underline;
+    }
 }
 
 .head-skills h1{
