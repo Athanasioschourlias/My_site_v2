@@ -770,12 +770,16 @@ footer h4 {
 }
 
 .articles {
-  width: 95%;
+  width: 90%;
   margin: auto;
 }
 
 .articles a:hover {
   text-decoration: underline;
+}
+
+.articles h4 {
+  font-size: 2.5rem;
 }
 
 .head-skills h1 {
@@ -899,6 +903,16 @@ footer h4 {
   padding: 2rem;
 }
 
+.card-title a {
+  color: black;
+}
+
+.card-title a:hover {
+  font-size: 2.6rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
 .card-text {
   padding: 2rem;
   font-size: large;
@@ -950,6 +964,15 @@ footer h4 {
   border-radius: 2rem;
   background-color: #0d3a3b;
   color: white;
+}
+
+.card-footer-link {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.card-footer-link:hover {
+  color: rgba(0, 0, 0, 0.6);
 }
 
 @media screen and (max-width: 1400px) {
