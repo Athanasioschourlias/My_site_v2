@@ -915,7 +915,19 @@ footer h4 {
 
 .card-text {
   padding: 2rem;
-  font-size: large;
+  font-size: 2rem;
+}
+
+.card-text a {
+  font-size: 2rem;
+  color: black;
+}
+
+.card-text a:hover {
+  color: black;
+  font-size: 2.2rem;
+  -webkit-transition: 60ms ease-in-out;
+  transition: 60ms ease-in-out;
 }
 
 .card-img-top {
@@ -967,7 +979,7 @@ footer h4 {
 }
 
 .card-footer-link {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -978,7 +990,7 @@ footer h4 {
 }
 
 .articles {
-  width: 95%;
+  width: 60%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -991,8 +1003,14 @@ footer h4 {
       flex-wrap: wrap;
 }
 
+.articles h1 {
+  padding: 3rem 0rem 3rem 0rem;
+  font-size: 5rem;
+  text-align: center;
+}
+
 .articles h2 {
-  padding: 3rem 0rem 0rem 0rem;
+  padding: 3rem 0rem 3rem 0rem;
   font-size: 3.5rem;
   text-align: center;
 }
@@ -1015,8 +1033,12 @@ footer h4 {
   transition: 1s ease-in-out;
 }
 
+.articles img {
+  margin: 3rem;
+}
+
 .date {
-  width: 95%;
+  width: 60%;
   margin: auto;
   padding: 2rem;
   display: -webkit-box;

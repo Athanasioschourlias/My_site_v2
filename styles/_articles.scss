@@ -1,15 +1,20 @@
 .articles{
-    width: 95%;
+    width: 60%;
     margin: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 
-    h2{
-      padding: 3rem 0rem 0rem 0rem;
-      font-size: 3.5rem;
+    h1{
+      padding: 3rem 0rem 3rem 0rem;
+      font-size: 5rem;
       text-align: center;
     }
+    h2{
+        padding: 3rem 0rem 3rem 0rem;
+        font-size: 3.5rem;
+        text-align: center;
+      }
     article{
         font-size: 2rem;
         padding: 3rem;
@@ -24,12 +29,15 @@
         font-size: 2.2rem;
         transition: 1s ease-in-out;
     }
+    img{
+        margin: 3rem;
+    }
 
 }
 
 
 .date{
-    width: 95%;
+    width: 60%;
     margin: auto;
     padding: 2rem;
     @include flex(center, flex-start, column);

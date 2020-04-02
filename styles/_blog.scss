@@ -25,7 +25,17 @@
 
 .card-text{
     padding: 2rem;
-    font-size: large;
+    font-size: 2rem;
+
+    a {
+        font-size: 2rem;
+        color: rgba(0, 0, 0, 1);
+    }
+    a:hover{
+        color: rgba(0, 0, 0, 9);
+        font-size: 2.2rem;
+        transition: 60ms ease-in-out;
+    }
 }
 
 .card-img-top{
@@ -71,7 +81,7 @@
 }
 
 .card-footer-link {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: rgba(0, 0, 0, 0.5);
 }
 
