@@ -491,6 +491,8 @@ nav ul li:nth-child(5):hover {
 
 .contact textarea {
   width: 100%;
+  padding: 2rem;
+  margin: 2rem 0rem;
 }
 
 .form-wrapper {
@@ -513,7 +515,7 @@ nav ul li:nth-child(5):hover {
 }
 
 .form-wrapper h2 {
-  margin: 4rem 0rem;
+  margin: 3rem 0rem;
 }
 
 .form-wrapper span {
