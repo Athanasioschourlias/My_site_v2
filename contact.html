@@ -44,11 +44,31 @@
                     <span>Touch.</span>
                 </h2>
                 <form name="contact" method="POST" data-netlify="true">
+                    <p>
+                      <label>Your Name: <input type="text" name="name" /></label>   
+                    </p>
+                    <p>
+                      <label>Your Email: <input type="email" name="email" /></label>
+                    </p>
+                    <p>
+                      <label>Your Role: <select name="role[]" multiple>
+                        <option value="leader">Leader</option>
+                        <option value="follower">Follower</option>
+                      </select></label>
+                    </p>
+                    <p>
+                      <label>Message: <textarea name="message"></textarea></label>
+                    </p>
+                    <p>
+                      <button type="submit">Send</button>
+                    </p>
+                </form>
+                <!-- <form name="contact" method="POST" data-netlify="true">
                     <label for="email">Your Email:</label>
                     <input type="email" id="email required" placeholder="E-mail">
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write something you want to tell me!!"></textarea>
                     <button type="submit">Submit</button>
-                </form>
+                </form> -->
             </div>
             <img src="./img/contact.png" alt="">
         </section>
