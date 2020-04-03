@@ -115,11 +115,19 @@
                     Get in <br />
                     <span>touch.</span>
                 </h2>
-                <form>
-                    <label for="email">Your Email:</label>
-                    <input type="email" id="email required" placeholder="E-mail">
-                    <textarea class="form-control" rows="3" placeholder="Write something you want to tell me!!"></textarea>   
-                    <button type="submit">Submit</button>
+                <form name="contact" method="POST" data-netlify="true">
+                    <p>
+                      <label>Your Name: <input type="text" name="name" /></label>   
+                    </p>
+                    <p>
+                      <label>Your Email: <input type="email" name="email" /></label>
+                    </p>
+                    <p>
+                      <textarea name="message"></textarea>
+                    </p>
+                    <p>
+                      <button type="submit">Send</button>
+                    </p>
                 </form>
             </div>
             <img src="./img/contact.png" alt="">
