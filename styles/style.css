@@ -489,6 +489,10 @@ nav ul li:nth-child(5):hover {
       flex-wrap: wrap;
 }
 
+.contact textarea {
+  width: 100%;
+}
+
 .form-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
