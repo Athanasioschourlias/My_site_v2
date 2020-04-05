@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>ThanosChourlias | Software engineer</title>
+        <title>ThanosChourlias | Blog</title>
         <meta http-equiv="X-UA-Compatable" content="ie=edge" />
         <meta name="description"
-            content="im a full stack game developer with skills at C , C# , java.I'm investing my free time learning other programming laguages like python and javascript, 
-            by creating software that helps me solve every day problems or automate boring and simple task,or more complex tasks with the help of machine learning. 
-            In this web page you will find articles about my progress and mainly you will find completed and upcomming projects">
+            content="Here you can find articles about my projects, my sources for every project and a 
+            brief description of how everything are put together.Also at this page will 
+            be uploaded papers from my bigger and more complex projects, which require 
+            something more than a simple description and the sources of the projects. ">
         <meta charset="UTF-8">
         <meta name="robots" content="index.follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="../icons/codingbrowser_102152.ico">
+        <link rel="icon" href="../icons/newspaper.svg">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
             integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="../bootstrap-styling/blog-v2.css">
@@ -20,15 +21,34 @@
             <header class="blog-header py-3">
                 <div class="row flex-nowrap justify-content-between align-items-center">
                     <div class="col-4 pt-1">
-                        
+                        <div class="dropdown">
+                            <!--IF I WANT THE ARROW POINTING DOWN I CAN ADD "dropdown-toggle"-->
+                            <a class="btn btn-black" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Menu
+                            </a>
+                            <div class="dropdown-menu black-background" aria-labelledby="dropdownMenuLink ]">
+                                <a class="dropdown-item" href="./projects.html">Software</a>
+                                <a class="dropdown-item" href="./about.html">About</a>
+                                <a class="dropdown-item" href="./gallery.html">Gallery</a>
+                                <a class="dropdown-item" href="./blog-v2.html">Blog</a>
+                                <a class="dropdown-item" href="./contact.html">Contact</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-4 text-center">
-                        <a class="blog-header-logo text-dark" href="#">Large</a>
+                        <a class="blog-header-logo text-dark" href="./blog-v2.html">Thanos</a>
                     </div>
                     <div class="col-4 d-flex justify-content-end align-items-center">
                         <form class="form-inline my-2 my-lg-0">
                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            <!-- <button type="button" class="btn btn-link" type="submit"><img src="../icons/search.svg" alt=""></button> -->
+                            <!--I THING THAT "BUTTON" DOES NOT SUBMITT ANYTHING-->
+                            <a class="text-muted" type="submit" aria-label="Search">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" 
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title>
+                                <circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>
+                              </a>
                         </form>
                         <!-- <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a> -->
                     </div>

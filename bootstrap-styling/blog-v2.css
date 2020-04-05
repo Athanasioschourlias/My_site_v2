@@ -1,2 +1,38 @@
 /*THIS IS A DIFFEREND STYLESHEET ONLY FOR THE BLOG PAGE SO THE STYLES DO NOT GET MIXED UP */
 
+/*GLOBAL BASIC STYLING */
+html {
+    /* font-size: 62.5%; */
+    scroll-behavior: smooth;
+}
+
+body{
+    animation: opening 1s ease-in-out; 
+}
+
+/*HEADER(NAVBAR) CUSTOMISATION*/
+
+.btn-black{
+    background-color: black;
+    color: white;
+}
+
+.black-background{
+    background-color: black;
+}
+
+.black-background a{
+    color: white;
+}
+
+.blog-header-logo{
+    font-size: 2.5rem;
+}
+
+
+/*MEDIA, BREAKPOINTS etc.*/
+
+@media screen and(max-width:950px){
+
+    
+}
