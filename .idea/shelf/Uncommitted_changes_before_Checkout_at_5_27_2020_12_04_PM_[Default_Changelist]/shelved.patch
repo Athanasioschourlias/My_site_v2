@@ -1,0 +1,99 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <title>ThanosChourlias | Software engineer</title>\r\n    <meta http-equiv=\"X-UA-Compatable\" content=\"ie=edge\" />\r\n    <meta name=\"description\"\r\n        content=\"im a full stack game developer with skills at C , C# , java.I'm investing my free time learning other programming laguages like python and javascript, \r\n                       by creating software that helps me solve every day problems or automate boring and simple task,or more complex tasks with the help of machine learning. \r\n                       In this web page you will find articles about my progress and mainly you will find completed and upcomming projects\">\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"robots\" content=\"index.follow\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <link rel=\"icon\" href=\"../icons/codingbrowser_102152.ico\">\r\n    <link rel=\"stylesheet\" href=\"../styles/style.css\">\r\n</head>\r\n\r\n<body>\r\n    <header class=\"main-head\">\r\n        <nav>\r\n            <div class=\"logo\">\r\n                <a href=\"./index.html\"><img src=\"../icons/code.svg\" id=\"nav-icon\" alt=\"logo\" /></a>\r\n                <a href=\"./index.html\">\r\n                    <h1>Athanasios Chourlias</h1>\r\n                </a>\r\n            </div>\r\n            <ul class=\"nav-links\">\r\n                <li><a href=\"./HTML/projects.html\">Software</a></li>\r\n                <li><a href=\"./HTML/about.html\">About</a></li>\r\n                <li><a href=\"./HTML/gallery.html\">Gallery</a></li>\r\n                <li><a href=\"./HTML/blog-v2.html\">Blog</a></li>\r\n                <li><a href=\"#contact\">Contact</a></li>\r\n\r\n            </ul>\r\n            <div class=\"burger\">\r\n                <span class=\"line1\"></span>\r\n                <span class=\"line2\"></span>\r\n                <span class=\"line3\"></span>\r\n            </div>\r\n        </nav>\r\n    </header>\r\n    <main>\r\n        <section class=\"intro\">\r\n            <div class=\"intro-introdaction\">\r\n                <h2>Athanasios Chourlias <br />\r\n                    Software engineer.\r\n                </h2>\r\n                <p>\r\n                    Welcome to my domain. You are just a curious individual? That’s very nice so am I,\r\n                    here you can find all of my projects and download them so you can experiment with them by yourself.\r\n                    Or you just trying to see if I’m worthy of a job position? I’m glad if that is the case too,\r\n                    you can find all you need at my software page(bio, projects e.t.c).Thank for your visit anyway!\r\n                </p>\r\n                <a class=\"button\" href=\"./projects.html\">Software</a>\r\n                <a class=\"arrow-down\" href=\"#contact\"><img src=\"../icons/arrow-down.svg\" alt=\"arrow pointing down\"></a>\r\n            </div>\r\n            <div class=\"intro-images\">\r\n                <img class=\"intro-thanos\" src=\"../img/RBAV_181013_IAME-LEMANS_0009 1.png\" alt=\"\">\r\n            </div>\r\n        </section>\r\n        <section class=\"about\" id=\"about\">\r\n            <div class=\"about-image\">\r\n                <a href=\"./HTML/about.html\">\r\n                    <h5> ABOUT</h5>\r\n                </a>\r\n                <img class=\"coding-img\" src=\"../img/coding(about).png\" alt=\"\">\r\n                <!-- <a href=\"#gallery\"><img src=\"./icons/arrow-down(white).svg\" class=\"arrow-down-about\" alt=\"arrow pointing down but in white\"></a> -->\r\n            </div>\r\n            <div class=\"about-text\">\r\n                <h2>Athanasios Chourlias</h2>\r\n                <!-- <div class=\"about-life\">\r\n                    <h3>My life</h3>\r\n                    <p>My name is thanos,  I’m 19 years old and im currently studying software engineering at Harokopeio University of Athens.\r\n                        \r\n                    </p>\r\n                </div> -->\r\n                <div class=\"about-software\">\r\n                    <a href=\"./projects.html\">\r\n                        <h3>Software</h3>\r\n                    </a>\r\n                    <p>This is a section where you can find all the projects I have completed(alone or with a team),\r\n                        every completed project\r\n                        is clickable and it takes you to its GitHub repository, there you can find a full description of\r\n                        the project and inside\r\n                        the REAMME.md file all the instractions on how to operate the specific software you are looking\r\n                        at either if this is\r\n                        a game or just an application for automation etc.\r\n                    </p>\r\n                </div>\r\n                <div class=\"about-goals\">\r\n                    <h3>Goals for 2020</h3>\r\n                    <ul>\r\n                        <li>\r\n                            First and foremost, I want to get started with TensorFlow\r\n                            (mostly) and and some basic AI learning projects.\r\n                        </li>\r\n                        <li>\r\n                            My next biggest goal for 2020, is to get involve with quantitative trading\r\n                            (OR high frequency trading), and hopefully start an exiting project involving\r\n                            some AI too.\r\n                        </li>\r\n                        <li>\r\n                            Last but mot least, is to practice my c# skills with a\r\n                            unity game project(Mostly a side project I will do between\r\n                            my tradind-practice and university classes and tests).\r\n                        </li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n        </section>\r\n        <div class=\"gallery\" id=\"gallery\">\r\n            <header class=\"gallery-head\">\r\n                <h2>Quallity Photographs</h2>\r\n                <p>Here you can find some of my favorite photos i have collected over the years</p>\r\n                <a class=\"gallery-link\" href=\"./HTML/gallery.html\">\r\n                    <h4>here you can find a hole page of them!!</h4>\r\n                </a>\r\n            </header>\r\n            <button>\r\n                <h3>Gallery!!</h3>\r\n            </button>\r\n            <img class=\"gallery1\" src=\"../img/AI.png\" alt=\"\">\r\n            <img class=\"gallery2\" src=\"../img/minimalworkstation 1.png\" alt=\"\">\r\n            <img class=\"gallery3\" src=\"../img/gallery_3.png\" alt=\"\">\r\n            <img class=\"gallery4\" src=\"../img/gallery_4.png\" alt=\"\">\r\n        </div>\r\n        <section class=\"contact\" id=\"contact\">\r\n            <div class=\"form-wrapper\">\r\n                <h2>\r\n                    Get in <br />\r\n                    <span>touch.</span>\r\n                </h2>\r\n                <form name=\"contact\" method=\"POST\" data-netlify=\"true\">\r\n                    <p>\r\n                        <label>Your Name: <input type=\"text\" name=\"name\" /></label>\r\n                    </p>\r\n                    <p>\r\n                        <label>Your Email: <input type=\"email\" name=\"email\" /></label>\r\n                    </p>\r\n                    <p>\r\n                        <textarea name=\"message\"></textarea>\r\n                    </p>\r\n                    <p>\r\n                        <button type=\"submit\">Send</button>\r\n                    </p>\r\n                </form>\r\n            </div>\r\n            <img src=\"../img/contact.png\" alt=\"\">\r\n        </section>\r\n    </main>\r\n    <footer>\r\n        <h4>Athanasios Chourlias &copy; 2020</h4>\r\n        <ul>\r\n            <li><a href=\"https://github.com/Athanasioschourlias\"><img src=\"../icons/github.svg\" alt=\"\"></a></li>\r\n            <li><a href=\"https://www.instagram.com/thanos.chourlias/?hl=el\"><img src=\"../icons/instagram.svg\"\r\n                        alt=\"\"></a></li>\r\n            <li><a href=\"https://twitter.com/chourlias\"><img src=\"../icons/twitter.svg\" alt=\"\"></a></li>\r\n            <li><a href=\"https://www.youtube.com/channel/UCJAClF_1zFojNKF_B22qmhA?view_as=subscriber\"><img\r\n                        src=\"../icons/youtube-symbol.svg\" alt=\"\"></a></li>\r\n            <li><a href=\"https://steamcommunity.com/id/POGDADOR/\"><img src=\"../icons/steam.svg\" alt=\"\"></a></li>\r\n        </ul>\r\n    </footer>\r\n</body>\r\n<script src=\"./JS/app.js\"></script>\r\n<script src=\"./JS/Nav-scroll.js\"></script>\r\n<script src=\"./JS/icon-change.js\"></script>\r\n\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- index.html	(revision 97d2acd9ce43679cc5bee1cc33cae92f48388ea1)
++++ index.html	(date 1590533297179)
+@@ -49,7 +49,7 @@
+                     Welcome to my domain. You are just a curious individual? That’s very nice so am I,
+                     here you can find all of my projects and download them so you can experiment with them by yourself.
+                     Or you just trying to see if I’m worthy of a job position? I’m glad if that is the case too,
+-                    you can find all you need at my software page(bio, projects e.t.c).Thank for your visit anyway!
++                    you can find all you need at my software page(bio, projects e.t.c). Thank for your visit anyway!
+                 </p>
+                 <a class="button" href="./projects.html">Software</a>
+                 <a class="arrow-down" href="#contact"><img src="../icons/arrow-down.svg" alt="arrow pointing down"></a>
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(date 1590570102124)
++++ .idea/modules.xml	(date 1590570102124)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/my-domain.iml" filepath="$PROJECT_DIR$/.idea/my-domain.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.gitignore	(date 1590570102333)
++++ .idea/.gitignore	(date 1590570102333)
+@@ -0,0 +1,5 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
+Index: .idea/my-domain.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/my-domain.iml	(date 1590570102078)
++++ .idea/my-domain.iml	(date 1590570102078)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
++      <excludeFolder url="file://$MODULE_DIR$/temp" />
++      <excludeFolder url="file://$MODULE_DIR$/tmp" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1590570102096)
++++ .idea/vcs.xml	(date 1590570102096)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(date 1590570102110)
++++ .idea/misc.xml	(date 1590570102110)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="JavaScriptSettings">
++    <option name="languageLevel" value="ES6" />
++  </component>
++</project>
+\ No newline at end of file
