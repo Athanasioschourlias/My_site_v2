@@ -16,8 +16,15 @@
 //     } else {
 //         nav.src = "./icons/code.svg";
 //     }
-    
+
 // },
 // sectionOneOptions);
 
 // sectionOneObserver.observe(sectionOne);
+function change(iconID) {
+    if (document.getElementById(iconID).className == "fa fa-chevron-up") {
+        document.getElementById(iconID).className = "fa fa-chevron-down";
+    } else {
+        document.getElementById(iconID).className = "fa fa-chevron-up";
+    }
+}

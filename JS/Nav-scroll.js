@@ -1,5 +1,6 @@
 const header = document.querySelector("header");
 const sectionOne = document.querySelector(".intro");
+const icon = document.querySelector(".intro");
 // var nav = document.getElementById("nav-icon").src;
 
 const sectionOneOptions = {
@@ -7,20 +8,20 @@ const sectionOneOptions = {
 };
 
 const sectionOneObserver = new IntersectionObserver
-(function(
-    entries,
-    sectionOneObserver
-){
-    entries.forEach(entry => {
-        if(!entry.isIntersecting) {
-            header.classList.add("nav-scrolled");
-            // nav.src = "./icons/code(white).svg";
-        } else {
-            header.classList.remove("nav-scrolled");
-            // nav.src = "./icons/code.svg";
-        }
-    });
-},
-sectionOneOptions);
+    (function (
+        entries,
+        sectionOneObserver
+    ) {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) {
+                header.classList.add("nav-scrolled");
+                // nav.src = "./icons/code(white).svg";
+            } else {
+                header.classList.remove("nav-scrolled");
+                // nav.src = "./icons/code.svg";
+            }
+        });
+    },
+        sectionOneOptions);
 
 sectionOneObserver.observe(sectionOne);
