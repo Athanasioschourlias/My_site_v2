@@ -1,0 +1,93 @@
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+
+
+
+
+//custom styling
+.site-section {
+	padding: 5em 0;
+}
+
+.section-heading {
+	margin-bottom: 30px;
+	position: relative;
+	z-index: 10;
+	h2 {
+		position: relative;
+		font-weight: 200;
+		padding-top: 20px;
+		font-size: 30px;
+		strong {
+			font-weight: 800;
+		}
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			// bottom: 0;
+			left: 0;
+			height: 2px;
+			width: 50px;
+			background: $primary;
+			z-index: -1;
+		}
+	}
+	&.text-center {
+		h2 {
+			&:before {
+				left: 50%;
+				transform: translateX(-50%);
+			}
+		}
+	}
+}
+
+.lead {
+	font-weight: 200;
+	line-height: 1.5;
+}
+
+.skill {
+	h3 {
+		font-size: 18px;
+	}
+}
+
+.progress {
+    overflow: visible;
+    margin-bottom: 26px;
+    height: 4px;
+    .progress-bar {
+      background-color: $primary;
+      position: relative;
+      border-radius: 4px;
+      span {
+        background-color: $primary;
+        position: absolute;
+        bottom: -20px;
+        font-size: 10px;
+        line-height: 10px;
+        padding: 2px 3px 2px 4px;
+        right: -1.4em;
+        border-radius: 2px;
+      }
+      span:after {
+        bottom: 100%;
+        left: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-color: rgba(255, 255, 255, 0);
+        border-bottom-color: $primary;
+        border-width: 5px;
+        margin-left: -5px;
+      }
+    }
+  }
+  

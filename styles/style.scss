@@ -9,6 +9,7 @@ $gradient: linear-gradient(left, #5b2b83, #16b438);
 $background-color: #414141;
 $gray-text: #2c2c2c;
 $contact-color: rgb(17, 63, 55);
+$primary: #ff3434;
 
 @mixin flex($justify, $align, $direction) {
     display: flex;
@@ -26,9 +27,14 @@ $contact-color: rgb(17, 63, 55);
 @import"projects";
 @import"gallery(page)";
 @import"about(page)";
-@import"blog-v2";
+@import"blog-v2"; 
+@import"_SoftwarePageV2";
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
 
 
+// Media query's for mobile responsiveness
 @media screen and (max-width: 1400px){
     .contact img{
         display: none;
@@ -147,4 +153,5 @@ $contact-color: rgb(17, 63, 55);
         padding: 1rem;
     }
 }
+
 
