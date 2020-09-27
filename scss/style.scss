@@ -93,6 +93,26 @@ $link-color: #2c2c2c;
 }
 // Media query's for mobile responsiveness END
 
+//Footer section start
+
+footer {
+    background: $background-color;
+    color: white;
+    min-height: 10vh;
+    padding: 0% 5%;
+    @include flex(flex-start, center, row);
+    ul {
+        flex: 1 1 40rem;
+		@include flex(space-around, center, row);
+		list-style:  none;
+    }
+    h4 {
+        flex: 1 1 40rem;
+    }
+}
+
+
+//Footer section start
 body {	
 	background: $white;
 	color: #798a9a;
