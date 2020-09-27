@@ -1,4 +1,3 @@
-@import url(d:\Documents\Work\codingprojects\Website_Development\My_site\styles\blog-v2.css);
 * {
   margin: 0;
   padding: 0;
@@ -889,91 +888,37 @@ footer h4 {
   background-size: 115%;
 }
 
-.site-section {
-  padding: 5em 0;
+/*THIS IS A DIFFEREND STYLESHEET ONLY FOR THE BLOG PAGE SO THE STYLES DO NOT GET MIXED UP */
+/*GLOBAL BASIC STYLING */
+html {
+  /* font-size: 62.5%; */
+  scroll-behavior: smooth;
 }
 
-.section-heading {
-  margin-bottom: 30px;
-  position: relative;
-  z-index: 10;
+body {
+  -webkit-animation: opening 1s ease-in-out;
+          animation: opening 1s ease-in-out;
 }
 
-.section-heading h2 {
-  position: relative;
-  font-weight: 200;
-  padding-top: 20px;
-  font-size: 30px;
+/*HEADER(NAVBAR) CUSTOMISATION*/
+.btn-black {
+  background-color: black;
+  color: white;
 }
 
-.section-heading h2 strong {
-  font-weight: 800;
+.black-background {
+  background-color: black;
 }
 
-.section-heading h2:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2px;
-  width: 50px;
-  background: #57d131;
-  z-index: -1;
+.black-background a {
+  color: white;
 }
 
-.section-heading.text-center h2:before {
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+.blog-header-logo {
+  font-size: 2.5rem;
 }
 
-.lead {
-  font-weight: 200;
-  line-height: 1.5;
-}
-
-.skill h3 {
-  font-size: 18px;
-}
-
-.progress {
-  overflow: visible;
-  margin-bottom: 26px;
-  height: 4px;
-}
-
-.progress .progress-bar {
-  background-color: #57d131;
-  position: relative;
-  border-radius: 4px;
-}
-
-.progress .progress-bar span {
-  background-color: #57d131;
-  position: absolute;
-  bottom: -20px;
-  font-size: 10px;
-  line-height: 10px;
-  padding: 2px 3px 2px 4px;
-  right: -1.4em;
-  border-radius: 2px;
-}
-
-.progress .progress-bar span:after {
-  bottom: 100%;
-  left: 50%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-color: rgba(255, 255, 255, 0);
-  border-bottom-color: #57d131;
-  border-width: 5px;
-  margin-left: -5px;
-}
-
+/*MEDIA, BREAKPOINTS etc.*/
 @media screen and (max-width: 1400px) {
   .contact img {
     display: none;

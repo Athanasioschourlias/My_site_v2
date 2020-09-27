@@ -9,7 +9,8 @@ $gradient: linear-gradient(left, #5b2b83, #16b438);
 $background-color: #414141;
 $gray-text: #2c2c2c;
 $contact-color: rgb(17, 63, 55);
-$primary: #ff3434;
+$primary: #57d131;
+$link-color: #2c2c2c;
 
 @mixin flex($justify, $align, $direction) {
     display: flex;
@@ -28,10 +29,8 @@ $primary: #ff3434;
 @import"gallery(page)";
 @import"about(page)";
 @import"blog-v2"; 
-@import"_SoftwarePageV2";
-@import "bootstrap/functions";
-@import "bootstrap/variables";
-@import "bootstrap/mixins";
+@import"SoftwarePageV2";
+
 
 
 // Media query's for mobile responsiveness
