@@ -99,7 +99,7 @@
   src: url("/styles/fonts/GreatVibes-Regular.ttf");
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1033px) {
   /* burger */
   .burger {
     position: relative;
@@ -107,7 +107,7 @@
     cursor: pointer;
   }
   .burger span {
-    padding: 0.2rem 2rem;
+    padding: 0.15rem 1.5rem;
     background: #2c2c2c;
     margin: 0.5rem 0rem;
     display: block;
@@ -146,16 +146,16 @@
             transform: translateX(-100%);
   }
   .toggle .line1 {
-    -webkit-transform: rotateZ(45deg) translateY(300%);
-            transform: rotateZ(45deg) translateY(300%);
+    -webkit-transform: rotateZ(45deg) translateY(370%);
+            transform: rotateZ(45deg) translateY(370%);
     background: white;
   }
   .toggle .line2 {
     opacity: 0;
   }
   .toggle .line3 {
-    -webkit-transform: rotateZ(-45deg) translateY(-300%);
-            transform: rotateZ(-45deg) translateY(-300%);
+    -webkit-transform: rotateZ(-45deg) translateY(-370%);
+            transform: rotateZ(-45deg) translateY(-370%);
     background: white;
   }
 }

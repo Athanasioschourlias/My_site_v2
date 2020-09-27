@@ -41,7 +41,7 @@ $link-color: #2c2c2c;
 }
 
 // Media query's for mobile responsiveness START
-@media screen and(max-width:950px){
+@media screen and(max-width:1033px){
 	/* burger */
 	.burger {
 		position: relative;
@@ -49,7 +49,7 @@ $link-color: #2c2c2c;
 		cursor: pointer;
 	}
 	.burger span {
-		padding: 0.2rem 2rem;
+		padding: 0.15rem 1.5rem;
 		background: $gray-text;
 		margin: 0.5rem 0rem;
 		display: block;
@@ -80,14 +80,14 @@ $link-color: #2c2c2c;
 		transform: translateX(-100%);
 	}
 	.toggle .line1{
-		transform: rotateZ(45deg) translateY(300%);
+		transform: rotateZ(45deg) translateY(370%);
 		background: white;
 	}
 	.toggle .line2{
 		opacity: 0;
 	}
 	.toggle .line3{
-		transform: rotateZ(-45deg) translateY(-300%);
+		transform: rotateZ(-45deg) translateY(-370%);
 		background: white;
 	}
 }
