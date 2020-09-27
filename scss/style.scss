@@ -40,6 +40,58 @@ $link-color: #2c2c2c;
     flex-direction: $direction;
 }
 
+// Media query's for mobile responsiveness START
+@media screen and(max-width:950px){
+	/* burger */
+	.burger {
+		position: relative;
+		display: block;
+		cursor: pointer;
+	}
+	.burger span {
+		padding: 0.2rem 2rem;
+		background: $gray-text;
+		margin: 0.5rem 0rem;
+		display: block;
+		transition: all 0.5s ease-in-out;
+	}
+	.nav-links a{
+		color: white;
+		font-size: $header3;
+	}
+	.nav-links li:nth-child(6){
+		a{
+			text-decoration: none;
+		}
+	}
+	.nav-links {
+		background: rgba(48, 48, 48, 0.857);
+		opacity: 1;
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: 100%;
+		flex-direction: column;
+		align-items: center;
+		transition: transform 1s ease-in-out;
+	}
+	.nav-open {
+		transform: translateX(-100%);
+	}
+	.toggle .line1{
+		transform: rotateZ(45deg) translateY(300%);
+		background: white;
+	}
+	.toggle .line2{
+		opacity: 0;
+	}
+	.toggle .line3{
+		transform: rotateZ(-45deg) translateY(-300%);
+		background: white;
+	}
+}
+// Media query's for mobile responsiveness END
 
 body {	
 	background: $white;
@@ -929,54 +981,4 @@ nav ul li:nth-child(5):hover  {
 		}
 	}
 
-	@media screen and(max-width:950px){
-		/* burger */
-		.burger {
-			position: relative;
-			display: block;
-			cursor: pointer;
-		}
-		.burger span {
-			padding: 0.2rem 2rem;
-			background: $gray-text;
-			margin: 0.5rem 0rem;
-			display: block;
-			transition: all 0.5s ease-in-out;
-		}
-		.nav-links a{
-			color: white;
-			font-size: $header3;
-		}
-		.nav-links li:nth-child(6){
-			a{
-				text-decoration: none;
-			}
-		}
-		.nav-links {
-			background: rgba(48, 48, 48, 0.857);
-			opacity: 1;
-			width: 100%;
-			height: 100%;
-			position: fixed;
-			top: 0;
-			left: 100%;
-			flex-direction: column;
-			align-items: center;
-			transition: transform 1s ease-in-out;
-		}
-		.nav-open {
-			transform: translateX(-100%);
-		}
-		.toggle .line1{
-			transform: rotateZ(45deg) translateY(300%);
-			background: white;
-		}
-		.toggle .line2{
-			opacity: 0;
-		}
-		.toggle .line3{
-			transform: rotateZ(-45deg) translateY(-300%);
-			background: white;
-		}
-	}
 }

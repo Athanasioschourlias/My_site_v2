@@ -99,6 +99,67 @@
   src: url("/styles/fonts/GreatVibes-Regular.ttf");
 }
 
+@media screen and (max-width: 950px) {
+  /* burger */
+  .burger {
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+  .burger span {
+    padding: 0.2rem 2rem;
+    background: #2c2c2c;
+    margin: 0.5rem 0rem;
+    display: block;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .nav-links a {
+    color: white;
+    font-size: 2.5rem;
+  }
+  .nav-links li:nth-child(6) a {
+    text-decoration: none;
+  }
+  .nav-links {
+    background: rgba(48, 48, 48, 0.857);
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+    transition: -webkit-transform 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+    transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
+  }
+  .nav-open {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  .toggle .line1 {
+    -webkit-transform: rotateZ(45deg) translateY(300%);
+            transform: rotateZ(45deg) translateY(300%);
+    background: white;
+  }
+  .toggle .line2 {
+    opacity: 0;
+  }
+  .toggle .line3 {
+    -webkit-transform: rotateZ(-45deg) translateY(-300%);
+            transform: rotateZ(-45deg) translateY(-300%);
+    background: white;
+  }
+}
+
 body {
   background: #fff;
   color: #798a9a;
@@ -988,68 +1049,5 @@ nav ul li:nth-child(5):hover {
 .block-47 .block-47-quote .block-47-quote-author {
   font-size: 14px;
   color: #666666;
-}
-
-@media screen and (max-width: 950px) {
-  .block-47 {
-    /* burger */
-  }
-  .block-47 .burger {
-    position: relative;
-    display: block;
-    cursor: pointer;
-  }
-  .block-47 .burger span {
-    padding: 0.2rem 2rem;
-    background: #2c2c2c;
-    margin: 0.5rem 0rem;
-    display: block;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-  }
-  .block-47 .nav-links a {
-    color: white;
-    font-size: 2.5rem;
-  }
-  .block-47 .nav-links li:nth-child(6) a {
-    text-decoration: none;
-  }
-  .block-47 .nav-links {
-    background: rgba(48, 48, 48, 0.857);
-    opacity: 1;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-transition: -webkit-transform 1s ease-in-out;
-    transition: -webkit-transform 1s ease-in-out;
-    transition: transform 1s ease-in-out;
-    transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
-  }
-  .block-47 .nav-open {
-    -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
-  }
-  .block-47 .toggle .line1 {
-    -webkit-transform: rotateZ(45deg) translateY(300%);
-            transform: rotateZ(45deg) translateY(300%);
-    background: white;
-  }
-  .block-47 .toggle .line2 {
-    opacity: 0;
-  }
-  .block-47 .toggle .line3 {
-    -webkit-transform: rotateZ(-45deg) translateY(-300%);
-            transform: rotateZ(-45deg) translateY(-300%);
-    background: white;
-  }
 }
 /*# sourceMappingURL=style.css.map */
