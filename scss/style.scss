@@ -193,6 +193,7 @@ nav {
             font-family: 'Vibes';
 			font-size: 2.4rem;
 			font-weight: 700;
+			color: $background-color;
         }
         h1:hover{
             font-size: 2.5rem;
@@ -205,6 +206,7 @@ nav {
 		list-style: none;
 		font-size: 25px;
 		font-weight: 400;
+		color: $background-color;
     }
     
 }
