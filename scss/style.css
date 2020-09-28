@@ -260,8 +260,7 @@ a:hover, a:focus, a:active {
 }
 
 .main-head {
-  width: 95%;
-  margin: 0 0 0 auto;
+  width: 100%;
   z-index: 2;
   position: -webkit-sticky;
   position: sticky;
@@ -276,6 +275,7 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0 auto 0 auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -338,6 +338,22 @@ nav ul {
   font-size: 25px;
   font-weight: 400;
   color: #414141;
+}
+
+.scrolled-awake {
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+  background: transparent !important;
+}
+
+.scrolled-sleep {
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+  -webkit-transform: translateY(-95%);
+          transform: translateY(-95%);
+  background: #57d131 !important;
 }
 
 nav ul li:nth-child(1):hover {
