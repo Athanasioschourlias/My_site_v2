@@ -883,6 +883,65 @@ nav ul li:nth-child(5):hover {
   width: 100%;
 }
 
+.jm-sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 7em;
+}
+
+.blockquote {
+  margin-bottom: 30px;
+}
+
+.blockquote p {
+  font-size: 1.15rem;
+}
+
+.blockquote p:first-child {
+  border-left: 10px #eee solid;
+  margin-bottom: 20px;
+}
+
+.blockquote p {
+  padding-left: 20px;
+  color: #000;
+  font-style: italic;
+}
+
+.readmore {
+  position: relative;
+  padding-right: 20px;
+  text-transform: uppercase;
+  font-size: .75rem;
+  letter-spacing: .1rem;
+  font-weight: 900;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+.readmore:after {
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+  position: absolute;
+  content: "\e5c8";
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-family: 'icomoon';
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.readmore:hover {
+  padding-right: 30px;
+}
+
+.readmore:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+
 .image {
   opacity: 1;
   display: block;
@@ -892,6 +951,11 @@ nav ul li:nth-child(5):hover {
   transition: .5s ease;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+}
+
+.blockquote img {
+  width: 40px;
+  border-radius: 50%;
 }
 
 .middle {

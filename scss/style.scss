@@ -694,27 +694,6 @@ nav ul li:nth-child(5):hover  {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*--------- Start Portfolio Area -------------*/
 .portfolio-area {
     .primary-btn {
@@ -807,6 +786,57 @@ nav ul li:nth-child(5):hover  {
     width: 100%;
 }
 
+.jm-sticky-top {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 7em;
+}
+
+.blockquote {
+	margin-bottom: 30px;
+	p {
+		font-size: 1.15rem;
+	}
+	p:first-child {
+		border-left: 10px #eee solid;
+		margin-bottom: 20px;
+	}
+	p {
+		padding-left: 20px;
+		color: $black;
+		font-style: italic;
+	}
+}
+
+.readmore {
+	position: relative;
+	padding-right: 20px;
+	text-transform: uppercase;
+	font-size: .75rem;
+	letter-spacing: .1rem;
+	font-weight: 900;
+	transition: .3s all ease;
+	&:after {
+		transition: .3s all ease;
+		position: absolute;
+		content: "\e5c8";
+		top: 50%;
+		transform: translateY(-50%);
+		font-family: 'icomoon';
+		right: 0;
+		opacity: 0;
+		visibility: hidden;
+	}
+	&:hover {
+		padding-right: 30px;
+		&:after {
+			opacity: 1;
+			visibility: visible;
+			
+		}
+	}
+}
+
 
 .image {
   opacity: 1;
@@ -815,6 +845,13 @@ nav ul li:nth-child(5):hover  {
   height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
+}
+
+.blockquote {
+	img {
+		width: 40px;
+		border-radius: 50%;
+	}
 }
 
 .middle {
