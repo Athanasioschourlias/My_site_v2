@@ -210,7 +210,7 @@ body {
   background: #fff;
   color: #798a9a;
   line-height: 1.7;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 300;
 }
 
@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5 {
 a {
   -webkit-transition: .3s all;
   transition: .3s all;
-  color: #57d131;
+  color: #2c2c2c;
 }
 
 a:hover, a:focus, a:active {
@@ -332,8 +332,8 @@ nav ul {
       -ms-flex-direction: row;
           flex-direction: row;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+      -ms-flex: 1 1 30rem;
+          flex: 1 1 30rem;
   list-style: none;
   font-size: 25px;
   font-weight: 400;
