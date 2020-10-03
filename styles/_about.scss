@@ -26,7 +26,7 @@
     position: relative;
 }
 
-.about-image h5 {
+.about-image h4 {
     position: absolute;
     letter-spacing: 1rem;
     top:20%;
@@ -35,7 +35,7 @@
     color: white;
 }
 
-.about-image h5:hover{
+.about-image h4:hover{
     font-size: x-large;
     transition: 650ms ease-in-out;
     color: rgba(255, 255, 255, 0.7);
@@ -69,16 +69,21 @@
 }
 
 .about-text h3 {
+    font-size: 2.5rem;
+    color: white;
     padding: 2rem 0rem;
     font-family: "Ruhl Medium";
 }
 
-.about-text h2{
+.about-text h1{
+    color: white;
+    font-size: 4rem;
     font-family: "Vibes";
     padding: 4rem;
 }
 
-.about-software a{
+.about-software h3{
+    font-size: 2.5rem;
     color: white;
 }
 
