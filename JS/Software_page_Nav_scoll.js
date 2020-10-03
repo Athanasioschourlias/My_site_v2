@@ -1,6 +1,6 @@
 const navScrolled = document.getElementById("nav-scrolled");
 
-
+//!REALLY BAD IMPLEMENTATION DO IT AGAIN WHEN YOU HAVE A BETTER JS UNDERSTANDING
 var prevScrollpos = window.pageXOffset;
 window.onscroll = function () {
     var currentScrollpos = window.pageYOffset;
