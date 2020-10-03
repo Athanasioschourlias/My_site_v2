@@ -18,10 +18,10 @@ nav {
         h1 {
             margin: 2rem;
             font-family: 'Vibes';
-            font-size: 4rem;
+            font-size: 4rem!important;
         }
         h1:hover{
-            font-size: 4.1rem;
+            font-size: 4.1rem!important;
             transition: 1s ease-in-out;
         }
     }

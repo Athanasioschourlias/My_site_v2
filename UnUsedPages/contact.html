@@ -14,7 +14,11 @@
     <link rel="icon" href="../icons/codingbrowser_102152.ico">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/style.css">
+
+    <link rel="stylesheet" href="../styles/Custom_page's_css/animate.css">
+    <link rel="stylesheet" href="../styles/Custom_page's_css/bootstrap.css">
+    <link rel="stylesheet" href="../scss/bootstrap.css">
+    <link rel="stylesheet" href="../scss/style.css">
 </head>
 
 <body>
@@ -28,7 +32,6 @@
             </div>
             <ul class="nav-links">
                 <li><a href="./Software_page_v2.htm">Software</a></li>
-                <li><a href="./about.html">About</a></li>
                 <li><a href="./gallery.html">Gallery</a></li>
                 <li><a href="./blog-v2.html">Blog</a></li>
                 <li><a class="active" href="#">Contact</a></li>
@@ -41,30 +44,63 @@
             </div>
         </nav>
     </header>
-    <section class="contact" id="contact">
-        <div class="form-wrapper">
-            <h2>
-                Get in <br />
-                <span>Touch.</span>
-            </h2>
-            <form name="contact" method="POST" data-netlify="true">
-                <p>
-                    <label>Your Name: <input type="text" name="name" /></label>
-                </p>
-                <p>
-                    <label>Your Email: <input type="email" name="email" /></label>
-                </p>
-
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                    placeholder="Write something you want to tell me!!"
-                    name="message">Write something for me!!</textarea>
-
-                <p>
-                    <button type="submit">Send</button>
-                </p>
+    <section class="site-section bg-light" id="section-contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-5">
+            <div class="section-heading text-center">
+              <h2>Wanna <strong>Start Work</strong> With Me?</h2>
+            </div>
+          </div>
+          
+          <div class="col-md-7 mb-5 mb-md-0">
+            <form action="" class="site-form" method="POST" data-netlify="true"> <!--THE METHOD AND THE DATA-NETLIFY IS ONLY FOR THE CURRENT HOST IM HOSTING THE WEBSITE FROM-->
+              <h2 class="row form-wrapper">
+                  Get in <br />
+                  <span>touch.</span>
+              </h2>
+              <div class="form-group">
+                <input type="text" class="form-control px-4 py-4" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control px-3 py-4" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control px-3 py-4" placeholder="Your Phone">
+              </div>
+              <div class="form-group mb-5">
+                <textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Write a Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-lg btn-primary  px-4 py-3" value="Send Message">
+              </div>
             </form>
+          </div>
+          <div class="col-md-5 pl-md-5">
+            <h1 class="mb-5 ">My Contact Details</h1>
+            <ul class="site-contact-details">
+              <li>
+                <span class="text-uppercase">Email</span>
+                <p>thanos.chourlias@gmail.com</p>
+              </li>
+              <li>
+                <span class="text-uppercase">Phone</span>
+                <p>+30 6987171592</p>
+              </li>
+              <li>
+                <span class="text-uppercase">Fax</span>
+                <p>+30 6987171592</p>
+              </li>
+              <li>
+                <span class="text-uppercase">Address</span>
+                <p>Athens, GR <br>
+                  Chalandri, Etolias 24
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
-        <img src="../img/contact.png" alt="">
+      </div>
     </section>
     <footer>
         <h4>Athanasios Chourlias &copy; 2020</h4>
