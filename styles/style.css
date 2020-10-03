@@ -463,11 +463,20 @@ nav ul li:nth-child(5):hover {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: white;
   background: rgba(51, 51, 51, 0.9);
   padding: 5rem 10rem;
   text-align: center;
   border-radius: 2rem;
+}
+
+.gallery-head h4, .gallery-head p {
+  color: white;
+  padding: 0,4rem;
+}
+
+.gallery-head h2 {
+  font-size: 4rem;
+  color: white;
 }
 
 .gallery h4 {
