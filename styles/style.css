@@ -108,7 +108,7 @@ ul {
   position: relative;
 }
 
-.about-image h5 {
+.about-image h4 {
   position: absolute;
   letter-spacing: 1rem;
   top: 20%;
@@ -118,7 +118,7 @@ ul {
   color: white;
 }
 
-.about-image h5:hover {
+.about-image h4:hover {
   font-size: x-large;
   -webkit-transition: 650ms ease-in-out;
   transition: 650ms ease-in-out;
@@ -138,16 +138,21 @@ ul {
 }
 
 .about-text h3 {
+  font-size: 2.5rem;
+  color: white;
   padding: 2rem 0rem;
   font-family: "Ruhl Medium";
 }
 
-.about-text h2 {
+.about-text h1 {
+  color: white;
+  font-size: 4rem;
   font-family: "Vibes";
   padding: 4rem;
 }
 
-.about-software a {
+.about-software h3 {
+  font-size: 2.5rem;
   color: white;
 }
 
@@ -202,11 +207,11 @@ nav .logo {
 nav .logo h1 {
   margin: 2rem;
   font-family: 'Vibes';
-  font-size: 4rem;
+  font-size: 4rem !important;
 }
 
 nav .logo h1:hover {
-  font-size: 4.1rem;
+  font-size: 4.1rem !important;
   -webkit-transition: 1s ease-in-out;
   transition: 1s ease-in-out;
 }
@@ -320,6 +325,8 @@ nav ul li:nth-child(5):hover {
 
 .intro-introdaction h2 {
   font-size: 4rem;
+  font-weight: 700;
+  font-family: "Ruhl";
   padding-top: 2rem;
   background: -webkit-gradient(linear, left top, right top, from(#5b2b83), to(#16b438));
   background: linear-gradient(left, #5b2b83, #16b438);
@@ -458,11 +465,20 @@ nav ul li:nth-child(5):hover {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: white;
   background: rgba(51, 51, 51, 0.9);
   padding: 5rem 10rem;
   text-align: center;
   border-radius: 2rem;
+}
+
+.gallery-head h4, .gallery-head p {
+  color: white;
+  padding: 0,4rem;
+}
+
+.gallery-head h2 {
+  font-size: 4rem;
+  color: white;
 }
 
 .gallery h4 {
@@ -888,6 +904,37 @@ footer h4 {
   background-size: 115%;
 }
 
+/*THIS IS A DIFFEREND STYLESHEET ONLY FOR THE BLOG PAGE SO THE STYLES DO NOT GET MIXED UP */
+/*GLOBAL BASIC STYLING */
+html {
+  /* font-size: 62.5%; */
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-animation: opening 1s ease-in-out;
+          animation: opening 1s ease-in-out;
+}
+
+/*HEADER(NAVBAR) CUSTOMISATION*/
+.btn-black {
+  background-color: black;
+  color: white;
+}
+
+.black-background {
+  background-color: black;
+}
+
+.black-background a {
+  color: white;
+}
+
+.blog-header-logo {
+  font-size: 2.5rem;
+}
+
+/*MEDIA, BREAKPOINTS etc.*/
 @media screen and (max-width: 1400px) {
   .contact img {
     display: none;

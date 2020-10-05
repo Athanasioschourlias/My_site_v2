@@ -1,6 +1,6 @@
 const header = document.querySelector("header");
 const sectionOne = document.querySelector(".intro");
-const icon = document.querySelector(".intro");
+// const icon = document.querySelector(".intro");
 // var nav = document.getElementById("nav-icon").src;
 
 const sectionOneOptions = {
