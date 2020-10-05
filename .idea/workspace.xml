@@ -19,8 +19,7 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:blogv2" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -95,6 +94,7 @@
       <workItem from="1590570050249" duration="1135000" />
       <workItem from="1590580059715" duration="1230000" />
       <workItem from="1599943845379" duration="5927000" />
+      <workItem from="1601899798348" duration="139000" />
     </task>
     <task id="LOCAL-00001" summary="First commit from Webstorm,pushing the files .idea.">
       <created>1590571110209</created>
@@ -128,19 +128,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="blogv2" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
