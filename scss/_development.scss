@@ -1,0 +1,50 @@
+
+/*HEADER(NAVBAR) CUSTOMISATION*/
+
+.btn-black{
+    background-color: black;
+    color: white;
+}
+
+.black-background{
+    background-color: black;
+}
+
+.black-background a{
+    color: white;
+}
+
+.blog-header-logo{
+    font-size: 2.5rem;
+}
+
+// Spacing
+.main-content{
+    box-sizing: border-box;
+    padding: 0 80px 0 90px;
+    
+}
+
+.ctn-img-pg-upper {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h1 {
+        color: white;
+        font-family: "Ruhl";
+        font-size: 3rem;
+    }
+}
+/*MEDIA, BREAKPOINTS etc.*/
+
+@media screen and(max-width:950px){
+
+    
+}

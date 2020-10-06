@@ -84,6 +84,51 @@
   margin-left: -5px;
 }
 
+/*HEADER(NAVBAR) CUSTOMISATION*/
+.btn-black {
+  background-color: black;
+  color: white;
+}
+
+.black-background {
+  background-color: black;
+}
+
+.black-background a {
+  color: white;
+}
+
+.blog-header-logo {
+  font-size: 2.5rem;
+}
+
+.main-content {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 80px 0 90px;
+}
+
+.ctn-img-pg-upper {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.centered h1 {
+  color: white;
+  font-family: "Ruhl";
+  font-size: 3rem;
+}
+
+/*MEDIA, BREAKPOINTS etc.*/
 @font-face {
   font-family: 'Ruhl';
   src: url("/styles/fonts/FrankRuhlLibre-Regular.ttf");
@@ -563,7 +608,7 @@ nav ul li:nth-child(5):hover {
 }
 
 .site-section {
-  padding: 5em 0;
+  padding: 5rem 0;
 }
 
 .section-heading {

@@ -18,6 +18,8 @@ $link-color: #2c2c2c;
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
 @import"SoftwarePageV2";
+@import"development";
+
 
 @font-face{
     font-family: 'Ruhl';
@@ -484,7 +486,7 @@ nav ul li:nth-child(5):hover  {
 }
 
 .site-section {
-	padding: 5em 0;
+	padding: 5rem 0;
 }
 .section-heading {
 	margin-bottom: 30px;
