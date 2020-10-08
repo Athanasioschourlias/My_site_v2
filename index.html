@@ -11,26 +11,29 @@
     <meta charset="UTF-8">
     <meta name="robots" content="index.follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./icons/codingbrowser_102152.ico">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="../icons/codingbrowser_102152.ico">
+    <link rel="stylesheet" href="../styles/style.css">
+
+    <link rel="stylesheet" href="../styles/Custom_page's_css/animate.css">
+    <link rel="stylesheet" href="../styles/Custom_page's_css/bootstrap.css">
+    <link rel="stylesheet" href="../scss/bootstrap.css">
+    <link rel="stylesheet" href="../scss/style.css">
 </head>
 
 <body>
     <header class="main-head">
         <nav>
             <div class="logo">
-                <a href="./index.html"><img src="./icons/code.svg" id="nav-icon" alt="logo" /></a>
+                <a href="./index.html"><img src="../icons/code.svg" id="nav-icon" alt="logo" /></a>
                 <a href="./index.html">
-                    <h1>Thanos Chourlias</h1>
+                    <h1>Athanasios Chourlias</h1>
                 </a>
             </div>
             <ul class="nav-links">
-                <li><a href="./HTML/projects.html">Software</a></li>
-                <li><a href="./HTML/about.html">About</a></li>
+                <li><a href="./HTML/Software_page_v2.htm">Software</a></li>
+                <li><a class="nav-links-color" href="./HTML/Development_001.html">Development</a></li>
                 <li><a href="./HTML/gallery.html">Gallery</a></li>
-                <li><a href="./HTML/blog.html">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
-
+                
             </ul>
             <div class="burger">
                 <span class="line1"></span>
@@ -49,10 +52,11 @@
                     Welcome to my domain. You are just a curious individual? That’s very nice so am I,
                     here you can find all of my projects and download them so you can experiment with them by yourself.
                     Or you just trying to see if I’m worthy of a job position? I’m glad if that is the case too,
-                    you can find all you need at my software page(bio, projects e.t.c). Thank for your visit anyway!
+                    you can find all you need at my software page(bio, projects e.t.c).Thank for your visit anyway!
                 </p>
-                <a class="button" href="./HTML/projects.html">Software</a>
-                <a class="arrow-down" href="#contact"><img src="./icons/arrow-down.svg" alt="arrow pointing down"></a>
+                <a class="button" href="./HTML/Software_page_v2.htm">Software</a>
+                <a class="arrow-down" href="#section-contact"><img src="../icons/arrow-down.svg"
+                        alt="arrow pointing down"></a>
             </div>
             <div class="intro-images">
                 <img class="intro-thanos" src="./img/RBAV_181013_IAME-LEMANS_0009 1.png" alt="">
@@ -60,14 +64,14 @@
         </section>
         <section class="about" id="about">
             <div class="about-image">
-                <a href="./HTML/about.html">
-                    <h5>ABOUT</h5>
+                <a href="./HTML/Software_page_v2.htm">
+                    <h4> ABOUT</h4>
                 </a>
-                <img class="coding-img" src="./img/coding(about).png" alt="">
+                <img class="coding-img" src="../img/coding(about).png" alt="">
                 <!-- <a href="#gallery"><img src="./icons/arrow-down(white).svg" class="arrow-down-about" alt="arrow pointing down but in white"></a> -->
             </div>
             <div class="about-text">
-                <h2>Athanasios Chourlias</h2>
+                <h1>Athanasios Chourlias</h1>
                 <!-- <div class="about-life">
                     <h3>My life</h3>
                     <p>My name is thanos,  I’m 19 years old and im currently studying software engineering at Harokopeio University of Athens.
@@ -75,7 +79,7 @@
                     </p>
                 </div> -->
                 <div class="about-software">
-                    <a href="./HTML/projects.html">
+                    <a href="./HTML/Software_page_v2.htm">
                         <h3>Software</h3>
                     </a>
                     <p>This is a section where you can find all the projects I have completed(alone or with a team),
@@ -119,12 +123,12 @@
             <button>
                 <h3>Gallery!!</h3>
             </button>
-            <img class="gallery1" src="./img/AI.png" alt="">
-            <img class="gallery2" src="./img/minimalworkstation 1.png" alt="">
-            <img class="gallery3" src="./img/gallery_3.png" alt="">
-            <img class="gallery4" src="./img/gallery_4.png" alt="">
+            <img class="gallery1" src="../img/AI.png" alt="">
+            <img class="gallery2" src="../img/minimalworkstation 1.png" alt="">
+            <img class="gallery3" src="../img/gallery_3.png" alt="">
+            <img class="gallery4" src="../img/gallery_4.png" alt="">
         </div>
-        <section class="contact" id="contact">
+        <!-- <section class="contact" id="contact">
             <div class="form-wrapper">
                 <h2>
                     Get in <br />
@@ -145,7 +149,67 @@
                     </p>
                 </form>
             </div>
-            <img src="./img/contact.png" alt="">
+            <img src="../img/contact.png" alt="">
+        </section> -->
+        <section class="site-section bg-light" id="section-contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mb-5">
+                        <div class="section-heading text-center">
+                            <h2>Wanna <strong>Start Work</strong> With Me?</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-md-7 mb-5 mb-md-0">
+                        <form action="" class="site-form" method="POST" data-netlify="true">
+                            <!--THE METHOD AND THE DATA-NETLIFY IS ONLY FOR THE CURRENT HOST IM HOSTING THE WEBSITE FROM-->
+                            <h2 class="row form-wrapper">
+                                Get in <br />
+                                <span>touch.</span>
+                            </h2>
+                            <div class="form-group">
+                                <input type="text" class="form-control px-4 py-4" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control px-3 py-4" placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control px-3 py-4" placeholder="Your Phone">
+                            </div>
+                            <div class="form-group mb-5">
+                                <textarea class="form-control px-3 py-4" cols="30" rows="10"
+                                    placeholder="Write a Message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-lg btn-primary  px-4 py-3" value="Send Message">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-5 pl-md-5">
+                        <h1 class="mb-5 ">My Contact Details</h1>
+                        <ul class="site-contact-details">
+                            <li>
+                                <span class="text-uppercase">Email</span>
+                                <p>thanos.chourlias@gmail.com</p>
+                            </li>
+                            <li>
+                                <span class="text-uppercase">Phone</span>
+                                <p>+30 6987171592</p>
+                            </li>
+                            <!-- <li>
+                                <span class="text-uppercase">Fax</span>
+                                <p>+30 2109565077</p>
+                            </li> -->
+                            <li>
+                                <span class="text-uppercase">Address</span>
+                                <p>Athens, GR <br>
+                                    Chalandri, Etolias 24
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
@@ -157,7 +221,8 @@
             <li><a href="https://twitter.com/chourlias"><img src="./icons/twitter.svg" alt=""></a></li>
             <li><a href="https://www.youtube.com/channel/UCJAClF_1zFojNKF_B22qmhA?view_as=subscriber"><img
                         src="./icons/youtube-symbol.svg" alt=""></a></li>
-            <li><a href="https://steamcommunity.com/id/POGDADOR/"><img src="./icons/steam.svg" alt=""></a></li>
+            <li><a href="https://www.linkedin.com/in/athanasios-chourlias-6b8ba71b2/"><img
+                        src="./icons/iconmonstr-linkedin-1.svg" alt=""></a></li>
         </ul>
     </footer>
 </body>

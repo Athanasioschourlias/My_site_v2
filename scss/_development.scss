@@ -1,0 +1,121 @@
+
+/*HEADER(NAVBAR) CUSTOMISATION*/
+
+.btn-black{
+    background-color: black;
+    color: white;
+}
+
+.black-background{
+    background-color: black;
+}
+
+.black-background a{
+    color: white;
+}
+
+.blog-header-logo{
+    font-size: 2.5rem;
+}
+
+// main styling
+.main-content{
+    box-sizing: border-box;
+    padding: 0 80px 0 90px;
+    
+}
+
+.ctn-img-pg-upper {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h1 {
+        color: white;
+        font-family: "Ruhl";
+        font-size: 5rem;
+        font-weight: 400;
+    }
+}
+
+.page-disc{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    h4{
+        padding-top: 6rem;
+        font-size: large;
+        color: rgba(0, 0, 0, 0.5);  
+    }
+}
+
+.txt-black {
+    color: rgba(0, 0, 0, 0.8)!important;
+    font-size: xx-large;
+}
+
+/* Solid border */
+hr.solid {
+    border-top: 2px solid #bbb;
+    padding-bottom: 4rem;
+}
+
+
+/*MEDIA, BREAKPOINTS etc.*/
+
+@media screen and(max-width:1160px){
+    .centered {
+        h1 {
+            transition:1s ease-in-out;
+            font-size: 2.6rem;
+        }
+    }
+    
+}
+
+
+@media screen and(max-width:950px){
+    .centered {
+        h1 {
+            transition:1s ease-in-out;
+            font-size: 1.5rem;
+        }
+    }
+
+    
+    /* Solid border */
+    hr.solid {
+        transition:1s ease-in-out;
+        padding-bottom: 1rem;
+    }
+
+    .page-disc{
+        h4{
+            margin: 0!important;
+        }
+    }
+}
+
+@media screen and(max-width:500px){
+    .centered {
+        h1 {
+            padding-top: 0.2rem;
+            transition:1s ease-in-out;
+            font-size: 0.85rem;
+        }
+    }
+
+    /* Solid border */
+    hr.solid {
+        transition:1s ease-in-out;
+        padding-bottom: 0rem;
+    }
+    
+}
