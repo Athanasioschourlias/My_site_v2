@@ -18,7 +18,7 @@
     font-size: 2.5rem;
 }
 
-// Spacing
+// main styling
 .main-content{
     box-sizing: border-box;
     padding: 0 80px 0 90px;
@@ -42,9 +42,54 @@
         font-size: 3rem;
     }
 }
+
+.page-disc{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h4{
+        font-size: large;
+        color: rgba(0, 0, 0, 0.5);  
+    }
+}
+
+.txt-black {
+    color: rgba(0, 0, 0, 0.8)!important;
+    font-size: xx-large;
+}
+
+
 /*MEDIA, BREAKPOINTS etc.*/
 
-@media screen and(max-width:950px){
+@media screen and(max-width:1150px){
+    .centered {
+        h1 {
+            transition:1s ease-in-out;
+            font-size: 2.4rem;
+        }
+    }
+    
+}
 
+
+@media screen and(max-width:950px){
+    .centered {
+        h1 {
+            transition:1s ease-in-out;
+            font-size: 1.5rem;
+        }
+    }
+    
+}
+
+@media screen and(max-width:500px){
+    .centered {
+        h1 {
+            padding-top: 0.2rem;
+            transition:1s ease-in-out;
+            font-size: 0.9rem;
+        }
+    }
     
 }
