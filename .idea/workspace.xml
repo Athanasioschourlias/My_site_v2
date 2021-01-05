@@ -24,7 +24,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aee16be-ff1e-4091-b7bf-0136af51a68c" name="Default Changelist" comment="+social at the side bar" />
+    <list default="true" id="5aee16be-ff1e-4091-b7bf-0136af51a68c" name="Default Changelist" comment="2021_goals_update">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,6 +100,8 @@
       <workItem from="1599943845379" duration="5927000" />
       <workItem from="1601899798348" duration="139000" />
       <workItem from="1606251062861" duration="587000" />
+      <workItem from="1609425248860" duration="321000" />
+      <workItem from="1609854923019" duration="1085000" />
     </task>
     <task id="LOCAL-00001" summary="First commit from Webstorm,pushing the files .idea.">
       <created>1590571110209</created>
@@ -125,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606251750822</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Copyright date change! HAPPY NEW YEAR.">
+      <created>1609425359909</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609425359909</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,17 +162,8 @@
     <MESSAGE value="Some progress with the V2 of the blog" />
     <MESSAGE value="+social at the side bar" />
     <MESSAGE value="CV addition." />
-    <option name="LAST_COMMIT_MESSAGE" value="CV addition." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="461" y="185" key="SettingsEditor" timestamp="1599943922830">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="461" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1599943922830" />
-    <state x="483" y="256" key="Vcs.Push.Dialog.v2" timestamp="1606251752854">
-      <screen x="0" y="25" width="1680" height="961" />
-    </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599951279568" />
-    <state x="483" y="256" key="Vcs.Push.Dialog.v2/0.25.1680.961@0.25.1680.961" timestamp="1606251752854" />
+    <MESSAGE value="Copyright date change! HAPPY NEW YEAR." />
+    <MESSAGE value="2021_goals_update" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021_goals_update" />
   </component>
 </project>
